@@ -1,0 +1,142 @@
+/* For sd-courier */
+:root {
+  --margin-div-children: 0px 0px 20px 27px;
+}
+
+#sd-courier .cb_courier_isUsed {
+  margin-bottom: 10px;
+}
+
+#sd-courier #title {
+  margin-bottom: 0;
+}
+
+#sd-courier div.div-img {
+  min-height: 80px;
+}
+
+#sd-courier div.div-img img {
+  width: 235px;
+}
+
+#sd-courier .service-col {
+  margin: 4px 0;
+}
+
+.div_service,
+.div-cod,
+.div-cod-failed,
+.div-extra-info {
+  margin: var(--margin-div-children);
+}
+
+.div-cod p,
+.div-cod-failed p,
+.div-extra-info p {
+  margin: 5px 0px;
+}
+
+.grid-cod-failed {
+  margin-top: 20px;
+}
+
+.grid-cell {
+  margin: 10px 0px;
+  align-self: center;
+}
+
+input[type="text"].cod-failed-content {
+  width: 100%;
+}
+
+p.cod-failed-title {
+  width: 350px;
+}
+
+.div-cod-failed-amount {
+  position: relative;
+}
+
+.div-cod-failed-amount p {
+  top: 0px;
+  position: absolute;
+  left: 170px;
+}
+
+input.cod-failed-value {
+  padding-right: 20px;
+  min-height: min-content;
+  width: 177px;
+}
+
+input[type="radio"].rd-no {
+  margin-left: 50px;
+}
+
+input.pas-info {
+  width: 70%;
+}
+
+/*
+  Responsive Desktop first 
+  All rules outside of @media queries apply to devices 1201px and above
+  */
+@media (max-width: 1200px) {
+
+  /* rules here apply to devices from 993px to 1200px (inclusive) */
+
+  #sd-courier .service-col {
+    margin: 8px 0;
+  }
+
+  input.pas-info {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+
+  /* rules here apply to devices from 769px to 992px (inclusive) */
+
+  /* input[type="text"].cod-failed-content {
+    width: 420px;
+  } */
+}
+
+@media (max-width: 768px) {
+
+  /* rules here apply to devices from 600px to 768px (inclusive) */
+  #sd-courier div.div-img {
+    min-height: 0;
+  }
+
+  /* #sd-courier .div_service {
+    margin: 24px 27px 0px;
+  } */
+
+  #sd-courier .service-col {
+    margin: 12px 0;
+  }
+
+  /* input[type="text"].cod-failed-content {
+    width: 420px;
+  } */
+}
+
+@media (max-width: 600px) {
+
+  /* rules here apply to devices from 0px to 600px (inclusive) */
+  :root {
+    --margin-div-children: 0px 0px 20px 0px
+  }
+
+  input[type="text"].cod-failed-content {
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  input[type="text"].cod-failed-content {
+    width: 100%;
+  }
+}

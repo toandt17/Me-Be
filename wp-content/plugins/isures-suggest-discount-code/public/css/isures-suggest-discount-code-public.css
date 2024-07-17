@@ -1,0 +1,562 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.isures-hidden {
+    display: none!important;
+    visibility: hidden!important;
+}
+
+.isures-sdc--wrap * {
+    box-sizing: border-box;
+}
+
+.isures-sdc--wrap a,
+.isures_conditions_popup a {
+    text-decoration: none!important;
+    outline: none!important;
+}
+
+.isures-sdc--label {
+    font-size: 16px;
+    color: #333;
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+.isures-sdc--code_item {
+    cursor: pointer;
+    padding: 3px 12px;
+    border: 1px solid var(--isures-sdc-primary);
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--isures-sdc-primary);
+    position: relative;
+    margin: 8px 12px 0px 0px;
+    background-color: var(--isures-sdc-secondary);
+}
+
+.isures-sdc--code_item:after,
+.isures-sdc--code_item:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent var(--isures-sdc-primary) var(--isures-sdc-primary) transparent;
+    border-image: initial;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    border-radius: 50%;
+}
+
+.isures-sdc--code_item:before {
+    left: -6px;
+    transform: rotate(-45deg);
+}
+
+.isures-sdc--code_item:after {
+    right: -6px;
+    transform: rotate(135deg);
+}
+
+.isures-sdc--code_item span {
+    line-height: 1.3;
+    font-size: 12px;
+    padding: 3px 7px;
+    position: relative;
+    font-weight: bold;
+}
+
+.isures-sdc--logo_left:after,
+.isures-sdc--logo_left:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent #ddd #ddd transparent;
+    border-image: initial;
+    position: absolute;
+    border-radius: 50%;
+    left: calc(100% - 15px / 2);
+}
+
+.isures-sdc--item.isures-discount--applied .isures-sdc--logo_left:after,
+.isures-sdc--item.isures-discount--applied .isures-sdc--logo_left:before {
+    border-color: transparent var(--isures-sdc-primary) var(--isures-sdc-primary) transparent;
+}
+
+.isures-sdc--logo_left:before {
+    top: -8px;
+    transform: rotate(45deg);
+}
+
+.isures-sdc--logo_left::after {
+    bottom: -8px;
+    transform: rotate(-135deg);
+}
+
+.isures-sdc--item {
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    height: 104px;
+    padding: 15px;
+}
+
+.isures-sdc--item.isures-discount--applied .isures-sdc--info_wrap {
+    background: var(--isures-sdc-secondary);
+    border-color: var(--isures-sdc-primary);
+}
+
+.isures-sdc--info_wrap {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: calc(100% - 30px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    border-radius: 8px;
+}
+
+.isures-sdc--logo_left {
+    min-width: 104px;
+    width: 104px;
+    height: 104px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    align-self: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    border-right: 1px dashed #ddd;
+}
+
+.isures-sdc--item.isures-discount--applied .isures-sdc--logo_left {
+    border-color: var(--isures-sdc-primary);
+}
+
+.isures-sdc--logo_left img {
+    border-radius: 6px;
+}
+
+.isures-sdc--content_left>* {
+    display: block;
+}
+
+.isures-sdc--content_left {
+    line-height: 1.3;
+    padding-right: 8px;
+}
+
+.isures-sdc--content_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.isures-sdc--content_name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    max-height: 24px;
+    color: rgb(36, 36, 36);
+}
+
+.isures-sdc--content_excpt {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    max-height: 20px;
+    color: rgb(120, 120, 120);
+}
+
+.isures-sdc--content_expries {
+    font-size: 12px;
+    color: var(--isures-sdc-primary);
+}
+
+.isures-sdc--content_wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    width: calc(100% - 104px);
+    position: relative;
+}
+
+.isures-sdc--apply_code,
+.isures-sdc--save_code {
+    background: var(--isures-sdc-primary)!important;
+    box-shadow: inset 0 2px 1px 0 rgb(0 0 0 / 5%);
+    color: #fff !important;
+    font-size: 14px;
+    display: inline-block;
+    min-width: 80px;
+    text-align: center;
+    padding: 5px;
+    line-height: 1.3;
+    border-radius: 5px;
+    transition: all 200ms ease-in-out;
+}
+
+.isures-sdc--save_code.copied {
+    background-color: green!important;
+    color: #fff;
+}
+
+.isures-sdc--apply_code:hover {
+    opacity: .85;
+}
+
+.isures-sdc--list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.isures-sdc--dropdown_list {
+    max-width: 450px;
+    width: 100%;
+    padding: 0;
+    box-shadow: rgb(133 133 133) 1px 1px 5px 0px;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .09);
+    position: absolute;
+    z-index: 9;
+    top: calc(100% + 10px);
+    left: 0;
+    display: none;
+}
+
+.isures-sdc--dropdown_list::after,
+.isures-sdc--dropdown_list::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+}
+
+.isures-sdc--dropdown_list::after {
+    border: .5rem solid transparent;
+    border-bottom-color: #fff;
+    top: -.9375rem;
+    z-index: 1;
+}
+
+.isures-sdc--dropdown_list::before {
+    border: .5rem solid transparent;
+    border-bottom-color: rgba(0, 0, 0, .09);
+    top: -1.0625rem;
+    z-index: 0;
+}
+
+.isures-sdc--wrap.active .isures-sdc--dropdown_list {
+    display: block;
+}
+
+.isures-sdc--wrap {
+    padding: 15px 0;
+    clear: both;
+}
+
+.isures-sdc--dropdown_inner {
+    max-height: 400px;
+    overflow-y: auto;
+    min-height: 200px;
+}
+
+.isures-sdc--list_item {
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+}
+
+.isures-sdc-list_header {
+    color: #111;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 25px 25px 0;
+    margin-bottom: 15px;
+}
+
+.isures-sdc-list_sub-header {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 14px;
+    color: #777;
+}
+
+.isures-sdc--notice {
+    transition: all 200ms ease-in-out;
+}
+
+.isures-sdc--notice ul li {
+    margin: 0;
+    padding: 0;
+}
+
+#isures_notice_popup,
+#isures_conditions_popup {
+    max-width: 450px;
+    min-height: 200px;
+    padding: 20px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#isures_conditions_popup {
+    max-width: 500px;
+    justify-content: flex-start;
+    position: relative;
+    padding: 35px 5px;
+}
+
+#isures_notice_popup p {
+    color: #333;
+    text-transform: capitalize;
+}
+
+#isures_notice_popup .isures-close--lightbox {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    background: var(--isures-sdc-primary)!important;
+    border-radius: 5px;
+    outline: none!important;
+    text-decoration: none!important;
+}
+
+#isures_notice_popup .svg-container svg {
+    width: 80px;
+    height: 80px;
+}
+
+#isures_notice_popup svg.animate path {
+    animation: dash 750ms linear both;
+    animation-delay: 200ms;
+}
+
+.isures_notice_popup .woocommerce-info.pwp-points--earn_message {
+    display: none!important;
+    visibility: hidden!important;
+}
+
+.isures_notice_popup {
+    margin: 0;
+    list-style: none;
+}
+
+.isures_notice_popup .checkmark {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: red;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #7ac142;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #7ac142;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.isures_notice_popup .checkmark__cross {
+    stroke: red;
+    fill: #fff;
+}
+
+.isures_notice_popup .checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+#isures_conditions_popup table tr td,
+#isures_conditions_popup table tr th {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #242424;
+}
+
+#isures_conditions_popup table {
+    border-collapse: collapse;
+}
+
+#isures_conditions_popup table tr th {
+    color: #787878;
+    font-weight: 500;
+    width: 33%;
+}
+
+div#isures_conditions_popup table tbody tr:nth-child(odd) th,
+div#isures_conditions_popup table tbody tr:nth-child(odd) td {
+    background: #fafafa;
+}
+
+#isures_conditions_popup table ul {
+    margin: 0;
+    padding: 0;
+}
+
+.isures-view--details_conditions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    border: 1px solid var(--isures-sdc-primary);
+    border-radius: 99px;
+    position: absolute;
+    right: 5px;
+    top: 15px;
+}
+
+.isures-view--details_conditions svg {
+    width: 10px;
+    height: 10px;
+    fill: var(--isures-sdc-primary);
+}
+
+.isures-sdc--close_popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.isures-global--row_middle {
+    display: flex;
+    align-items: center;
+}
+
+.isures-sdc--copy_code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    background: var(--isures-sdc-secondary);
+    border-radius: 99px;
+    transition: all 200ms ease-in-out;
+}
+
+.isures-sdc--copy_code svg {
+    width: 15px;
+    height: 15px;
+    fill: var(--isures-sdc-primary);
+    transition: all 200ms ease-in-out;
+}
+
+.isures-sdc--close_popup svg {
+    width: 20px;
+    height: 20px;
+    fill: rgb(153, 153, 153);
+}
+
+.isures-sdc--copy_code.copied {
+    background-color: green;
+}
+
+.isures-sdc--copy_code.copied svg {
+    fill: #fff;
+}
+
+.html-copied {
+    margin-left: 8px;
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale {
+    0%,
+    100% {
+        transform: none;
+    }
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #7ac142;
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 210;
+    }
+    75% {
+        stroke-dashoffset: -220;
+    }
+    100% {
+        stroke-dashoffset: -205;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .isures-sdc--logo_left {
+        min-width: 86px;
+        width: 86px;
+        height: 104px;
+    }
+    .isures-sdc--content_wrap {
+        width: calc(100% - 86px);
+    }
+}

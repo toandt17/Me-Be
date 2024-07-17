@@ -1,0 +1,1138 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+/* 
+settings page
+*/
+
+.isures-aboutus--desc {
+    padding: 10px;
+}
+
+.isures-aboutus--desc blockquote {
+    position: relative;
+    font-size: 14px;
+    margin: 0 0 1.25em;
+    padding: 0 1.25em 0 1.875em;
+    border-left: 2px solid #0088cc;
+    font-style: italic;
+    color: #333;
+}
+
+.isures-description--wrap {
+    display: flex;
+    align-items: flex-end;
+    border-top: 1px solid #f1f1f1;
+    padding: 15px 10px;
+}
+
+.isures-description--wrap>div {
+    padding: 10px 15px;
+}
+
+.isures-col--left_image {
+    max-width: 35%;
+    width: 100%;
+    position: relative;
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.isures-col--left_image:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    opacity: 1;
+    transition: opacity 300ms ease-in-out;
+    z-index: 3;
+    content: '';
+}
+
+.isures-col--right_content {
+    max-width: 65%;
+    width: 100%;
+}
+
+.isures-col--left_image img {
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    -o-object-position: top center;
+    object-position: top center;
+    -o-object-fit: cover;
+    object-fit: cover;
+    font-family: "object-fit: cover;";
+    padding: 10px;
+    background: #fff;
+}
+
+.isures-col--right_content .isures-title {
+    background-image: linear-gradient(transparent calc(100% - 3px), currentColor 3px);
+    background-position: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    padding-bottom: 1px;
+    color: #0088cc;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.isures-desc {
+    font-size: 14px;
+    padding-left: 15px;
+    border-left: 5px solid #f1f1f1;
+}
+
+.isures-description--wrap:hover .isures-title {
+    background-size: 0 100%;
+}
+
+.isures-global--btn_nav {
+    padding: 8px 15px;
+    background: #f2f2f7;
+    flex-basis: calc(50% - 10px);
+    text-align: center;
+    color: #e76301!important;
+    border-radius: 5px;
+    transition: all 200ms ease-in-out;
+    -webkit-box-shadow: 0 3px 36px 0 rgb(0 0 0 / 6%);
+    box-shadow: 0 3px 36px 0 rgb(0 0 0 / 6%);
+    line-height: 20px;
+    display: inline-block;
+    min-height: 36px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.isures-global--btn_nav.primary {
+    background: #e76301;
+    color: #fff!important
+}
+
+.toplevel_page_isures_ice_setting .notice {
+    display: none;
+}
+
+.isures-global--row {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: .7em 2em 1em;
+    min-width: 255px;
+    max-width: 520px;
+    box-shadow: 2px 3px 20px rgb(0 0 0 / 20%);
+    border: 1px solid #eee;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.isures-global--row .item {
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 10px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.isures-global--row .item:hover {
+    background-color: #fafafa;
+}
+
+.isures-global--row .item:last-child {
+    border-bottom: none;
+}
+
+.isures-global--row .item a {
+    display: inline-block;
+    width: 100%;
+    color: #23282d;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    line-height: 1.4;
+}
+
+.isures-global--row .item .img {
+    position: absolute;
+    top: 0;
+    left: 105%;
+    height: calc(100% - 20px);
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    border: 1px solid #eee;
+    visibility: hidden;
+    transition: left 200ms ease-in-out;
+    text-align: center;
+    max-width: 150%;
+    width: 150%;
+}
+
+.isures-global--row .item .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.isures-global--row .item a:hover .img {
+    visibility: visible;
+    left: 100%;
+}
+
+.isures-global--row .item .num {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #0088cc;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.isures-global--row .item .info {
+    opacity: .5;
+    font-size: 13px;
+}
+
+.isures-expires {
+    float: right;
+}
+
+.isures-expires span {
+    font-size: 12px;
+    text-transform: capitalize;
+    display: block;
+    padding: 0 10px;
+    background: #fff;
+    color: #0088cc;
+    border-radius: 5px;
+}
+
+.wp-core-ui input[name="isures_isab_submit_option"] {
+    background: #fff;
+    color: #555;
+    padding: 8px 25px;
+    height: auto;
+    text-shadow: none;
+    box-shadow: none;
+    border-color: #e76301;
+    font-size: 15px;
+    font-weight: 700;
+    border: 2px solid #e76301;
+    text-transform: capitalize;
+    color: #e76301;
+    transition: all 200ms ease-in-out;
+}
+
+.wp-core-ui input[name="isures_isab_submit_option"]:hover,
+.wp-core-ui input[name="isures_isab_submit_option"]:focus {
+    background: #e76301;
+    color: #fff;
+    border: 2px solid #e76301;
+    outline: none;
+}
+
+.iris-picker-inner {
+    display: flex;
+}
+
+.iris-picker .iris-strip {
+    height: auto!important;
+}
+
+#isab-bot--image_wrap img,
+#iaov-icon--start_wrap img {
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+}
+
+#iaov-icon--start_wrap img {
+    max-width: 40px;
+    background: #f1f1f1;
+}
+
+
+/*  */
+
+.activation-status {
+    color: #55c524;
+    display: inline-block;
+}
+
+.isures-isab-tabbed {
+    display: flex;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+.isures-isab-tabbed input[type="radio"] {
+    /* hiding the inputs */
+    display: none;
+}
+
+.isures-isab-tabbed .tabs {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    flex: 0 0 20%;
+    margin: 0;
+}
+
+.isures-isab-tabbed .tabs li {
+    margin-bottom: 1px;
+}
+
+.isures-isab-tabbed .tab>label {
+    position: relative;
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 22px;
+    padding: 20px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333
+}
+
+.isures-isab-tabbed .tab-content {
+    display: none;
+    color: #777;
+    box-shadow: -2px 0 5px -1px rgb(0 0 0 / 5%);
+    color: #555d66;
+    font-size: 16px;
+    flex: 0 0 80%;
+    padding: 10px 30px 10px 40px;
+    position: relative;
+    line-height: 28px;
+    background: #fff;
+}
+
+
+/* As we cannot replace the numbers with variables or calls to element properties, the number of this selector parts is our tab count limit */
+
+.isures-isab-tabbed input[type="radio"]:nth-of-type(1):checked~.tabs .tab:nth-of-type(1) label,
+.isures-isab-tabbed input[type="radio"]:nth-of-type(2):checked~.tabs .tab:nth-of-type(2) label,
+.isures-isab-tabbed input[type="radio"]:nth-of-type(3):checked~.tabs .tab:nth-of-type(3) label,
+.isures-isab-tabbed input[type="radio"]:nth-of-type(4):checked~.tabs .tab:nth-of-type(4) label,
+.isures-isab-tabbed input[type="radio"]:nth-of-type(5):checked~.tabs .tab:nth-of-type(5) label,
+.isures-isab-tabbed input[type="radio"]:nth-of-type(6):checked~.tabs .tab:nth-of-type(6) label,
+.isures-isab-tabbed input[type="radio"]:nth-of-type(7):checked~.tabs .tab:nth-of-type(7) label {
+    background-color: #e76301;
+    font-weight: bold;
+    color: #fff
+}
+
+.isures-isab-tabbed input[type="radio"]:nth-of-type(1):checked~.tabs .tab:nth-of-type(1) label:after,
+.isures-isab-tabbed input[type="radio"]:nth-of-type(2):checked~.tabs .tab:nth-of-type(2) label:after,
+.isures-isab-tabbed input[type="radio"]:nth-of-type(3):checked~.tabs .tab:nth-of-type(3) label:after,
+.isures-isab-tabbed input[type="radio"]:nth-of-type(4):checked~.tabs .tab:nth-of-type(4) label:after,
+.isures-isab-tabbed input[type="radio"]:nth-of-type(5):checked~.tabs .tab:nth-of-type(5) label:after,
+.isures-isab-tabbed input[type="radio"]:nth-of-type(6):checked~.tabs .tab:nth-of-type(6) label:after,
+.isures-isab-tabbed input[type="radio"]:nth-of-type(7):checked~.tabs .tab:nth-of-type(7) label:after {
+    right: 0;
+    border: 8px solid transparent;
+    content: "";
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #fff;
+    top: 50%;
+    margin-top: -8px;
+    z-index: 2;
+}
+
+.isures-isab-tabbed input[type="radio"]:nth-of-type(1):checked~.tab-content:nth-of-type(1),
+.isures-isab-tabbed input[type="radio"]:nth-of-type(2):checked~.tab-content:nth-of-type(2),
+.isures-isab-tabbed input[type="radio"]:nth-of-type(3):checked~.tab-content:nth-of-type(3),
+.isures-isab-tabbed input[type="radio"]:nth-of-type(4):checked~.tab-content:nth-of-type(4),
+.isures-isab-tabbed input[type="radio"]:nth-of-type(5):checked~.tab-content:nth-of-type(5),
+.isures-isab-tabbed input[type="radio"]:nth-of-type(6):checked~.tab-content:nth-of-type(6),
+.isures-isab-tabbed input[type="radio"]:nth-of-type(7):checked~.tab-content:nth-of-type(7) {
+    display: block;
+}
+
+
+/* 
+ */
+
+.isures-build--inner input[type="text"],
+.isures-build--inner input[type="number"],
+.isures-build--inner select,
+.isures-build--inner input[type="email"],
+.isures-build--inner textarea {
+    min-width: 400px;
+    box-shadow: none;
+    border: 1px solid #e0e0e0;
+    padding: 5px 10px;
+    color: #777;
+    font-size: 13px;
+}
+
+.isures-build--inner input[type="text"]::placeholder,
+.isures-build--inner input[type="number"]::placeholder,
+.isures-build--inner textarea::placeholder,
+.isures-build--inner input[type="email"]::placeholder {
+    color: #ccc
+}
+
+.isures-primary--btn {
+    border: none;
+    outline: none;
+    padding: 8px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 200ms ease-in-out;
+    color: #969696
+}
+
+.isures-primary--btn:hover {
+    background: #0088cc;
+    color: #fff
+}
+
+.isures-build--inner h3 {
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #393939
+}
+
+#section-description img {
+    vertical-align: text-top;
+    margin-top: 16px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 30%);
+}
+
+
+/* 
+ */
+
+.isures-swich--wrap {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+}
+
+.isures-swich--wrap input {
+    display: none;
+}
+
+.isures-toggle--onoff {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ca2222;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.isures-toggle--onoff:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.isures-swich--wrap input:checked+.isures-toggle--onoff {
+    background-color: #2ab934;
+}
+
+.isures-swich--wrap input:focus+.isures-toggle--onoff {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.isures-swich--wrap input:checked+.isures-toggle--onoff:before {
+    -webkit-transform: translateX(55px);
+    -ms-transform: translateX(55px);
+    transform: translateX(55px);
+}
+
+
+/*------ ADDED CSS ---------*/
+
+.isures-swich--wrap .on {
+    display: none;
+}
+
+.isures-swich--wrap .on,
+.isures-swich--wrap .off {
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+.isures-swich--wrap input:checked+.isures-toggle--onoff .on {
+    display: block;
+}
+
+.isures-swich--wrap input:checked+.isures-toggle--onoff .off {
+    display: none;
+}
+
+
+/*--------- END --------*/
+
+
+/* Rounded isures-toggle--onoffs */
+
+.isures-toggle--onoff.round {
+    border-radius: 34px;
+}
+
+.isures-toggle--onoff.round:before {
+    border-radius: 50%;
+}
+
+
+/*  */
+
+.isures-notice--update {
+    position: fixed;
+    top: 0px!important;
+    left: 0!important;
+    right: 0!important;
+    padding: 40px 15px 15px;
+    background: #55c524;
+    opacity: 0.96;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    display: none;
+    z-index: 3;
+}
+
+
+/* how to use */
+
+.isures-use--wrap {
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    align-items: center;
+    padding: 50px 30px;
+    max-width: 50%;
+}
+
+a.isures-video--btn {
+    max-width: 50%;
+    border-radius: 3px;
+    line-height: 1;
+    padding: 13px 20px;
+    font-size: 13px;
+    box-shadow: none;
+    text-shadow: none;
+    background-color: #0088cc;
+    color: #fff;
+    border: 0;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+/* css settings */
+
+.isures-setting--wrap {
+    margin: 5px 15px 2px;
+}
+
+.isures-setting--wrap * {
+    box-sizing: border-box;
+}
+
+.isures-head--setting_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0088cc;
+    padding: 10px;
+}
+
+.isures-head--setting_wrap a {
+    display: inline-block;
+    background-color: #e76301;
+    font-weight: 600;
+    padding: 7px 20px;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.isures-contact--setting a span {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.isures-head--setting_wrap h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff
+}
+
+.isures-global--wrap_setting {
+    box-shadow: 2px 3px 20px rgb(0 0 0 / 20%);
+    margin: 20px 0 40px 0;
+}
+
+.isures-wrap--cont {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.isures-wrap--cont>* {
+    padding: 10px
+}
+
+.isures-desc--cont {
+    font-size: 13px;
+    flex-basis: 100%;
+    padding: 0 10px;
+}
+
+.isures-wrap--cont .isures-cont--label {
+    width: 210px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.isures-cont--field {
+    width: calc(100% - 240px);
+    margin-left: 20px;
+}
+
+.isures-cont--field p {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.isures-wrap--cont:nth-child(2n+1) {
+    background-color: #f4f4f4;
+}
+
+.isures-global--wrap_setting h3 {
+    margin: 0;
+    padding: 10px 15px;
+    background: #0088cc;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.isures-global--features * {
+    color: #555d66;
+    font-size: 14px;
+}
+
+.isures-progress--wrap {
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background-color: #e76301;
+}
+
+.isures-progress--saving {
+    height: 10px;
+    width: 0;
+    background: #111;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+}
+
+.isures-progress--wrap.active .isures-progress--saving {
+    animation: isures-prg 10s infinite linear;
+    opacity: 1;
+}
+
+@keyframes isures-prg {
+    0% {
+        width: 0%;
+    }
+    25% {
+        width: 50%;
+    }
+    50% {
+        width: 75%;
+    }
+    75% {
+        width: 85%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+/* product search */
+
+.isures-isab--item_search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+
+.isures-isab--item_search * {
+    line-height: 1;
+    font-size: 14px;
+}
+
+.isures-isab--item_search .item-thumb img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.isures-isab--item_search .item-thumb {
+    width: 35px;
+    height: 35px;
+}
+
+.isures-isab--item_search .plus {
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: #e0e0e0;
+    flex-basis: 35px;
+    min-width: 35px;
+}
+
+.isures-isab--item_search.checked .plus {
+    background: green;
+    color: #fff
+}
+
+.isures-isab--item_search.current.checked {
+    max-width: 500px;
+    margin-top: 10px;
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+}
+
+.isures-isab--search_wrap input[type="search"] {
+    max-width: 500px;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.isures-isab--item_search.checked .plus i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 35px;
+    font-size: 24px;
+}
+
+.isures-isab--item_search .item-name {
+    flex-grow: 1;
+    margin-left: 8px;
+}
+
+#iaov_search_results {
+    max-width: 500px;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 15px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    display: none;
+}
+
+#iaov_search_results.chosen {
+    border: none;
+    padding: 0
+}
+
+.isures-isab--del_item {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* global */
+
+.isures-hidden {
+    display: none;
+    visibility: hidden
+}
+
+.isures-global--row_pv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.isures-global--bet {
+    justify-content: space-between
+}
+
+.isures-flx--col {
+    flex-direction: column
+}
+
+.isures-flx--center {
+    align-items: center;
+    justify-content: center
+}
+
+.isures-global--col_pv {
+    padding: 10px
+}
+
+.mobile .mobile .isures-small--1 {
+    max-width: 8.3333333333%;
+    -ms-flex-preferred-size: 8.3333333333%;
+    flex-basis: 8.3333333333%
+}
+
+.mobile .isures-small--2 {
+    max-width: 16.6666666667%;
+    -ms-flex-preferred-size: 16.6666666667%;
+    flex-basis: 16.6666666667%
+}
+
+.mobile .isures-small--3 {
+    max-width: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%
+}
+
+.mobile .isures-small--4 {
+    max-width: 33.3333333333%;
+    -ms-flex-preferred-size: 33.3333333333%;
+    flex-basis: 33.3333333333%
+}
+
+.mobile .isures-small--5 {
+    max-width: 41.6666666667%;
+    -ms-flex-preferred-size: 41.6666666667%;
+    flex-basis: 41.6666666667%
+}
+
+.mobile .isures-small--6 {
+    max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%
+}
+
+.mobile .isures-small--7 {
+    max-width: 58.3333333333%;
+    -ms-flex-preferred-size: 58.3333333333%;
+    flex-basis: 58.3333333333%
+}
+
+.mobile .isures-small--8 {
+    max-width: 66.6666666667%;
+    -ms-flex-preferred-size: 66.6666666667%;
+    flex-basis: 66.6666666667%
+}
+
+.mobile .isures-small--9 {
+    max-width: 75%;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%
+}
+
+.mobile .isures-small--10 {
+    max-width: 83.3333333333%;
+    -ms-flex-preferred-size: 83.3333333333%;
+    flex-basis: 83.3333333333%
+}
+
+.mobile .isures-small--11 {
+    max-width: 91.6666666667%;
+    -ms-flex-preferred-size: 91.6666666667%;
+    flex-basis: 91.6666666667%
+}
+
+.mobile .isures-small--12 {
+    max-width: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%
+}
+
+@media screen and (min-width: 850px) {
+    .isures-large--1 {
+        max-width: 8.3333333333%;
+        -ms-flex-preferred-size: 8.3333333333%;
+        flex-basis: 8.3333333333%
+    }
+    .isures-large--2 {
+        max-width: 16.6666666667%;
+        -ms-flex-preferred-size: 16.6666666667%;
+        flex-basis: 16.6666666667%
+    }
+    .isures-large--3 {
+        max-width: 25%;
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%
+    }
+    .isures-large--4 {
+        max-width: 33.3333333333%;
+        -ms-flex-preferred-size: 33.3333333333%;
+        flex-basis: 33.3333333333%
+    }
+    .isures-large--5 {
+        max-width: 41.6666666667%;
+        -ms-flex-preferred-size: 41.6666666667%;
+        flex-basis: 41.6666666667%
+    }
+    .isures-large--6 {
+        max-width: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%
+    }
+    .isures-large--7 {
+        max-width: 58.3333333333%;
+        -ms-flex-preferred-size: 58.3333333333%;
+        flex-basis: 58.3333333333%
+    }
+    .isures-large--8 {
+        max-width: 66.6666666667%;
+        -ms-flex-preferred-size: 66.6666666667%;
+        flex-basis: 66.6666666667%
+    }
+    .isures-large--9 {
+        max-width: 75%;
+        -ms-flex-preferred-size: 75%;
+        flex-basis: 75%
+    }
+    .isures-large--10 {
+        max-width: 83.3333333333%;
+        -ms-flex-preferred-size: 83.3333333333%;
+        flex-basis: 83.3333333333%
+    }
+    .isures-large--11 {
+        max-width: 91.6666666667%;
+        -ms-flex-preferred-size: 91.6666666667%;
+        flex-basis: 91.6666666667%
+    }
+    .isures-large--12 {
+        max-width: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%
+    }
+}
+
+
+/* extra settings */
+
+table.isures_option_wrap,
+table.isures_option_wrap th,
+table.isures_option_wrap td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+table.isures_option_wrap th,
+table.isures_option_wrap td {
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.isures-element--wrap {
+    position: relative;
+    max-width: 1180px;
+    padding-bottom: 45px;
+    margin: 5px 15px 2px;
+}
+
+.isures_option_wrap {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.isures-submit--wrap {
+    text-align: right!important
+}
+
+.isures_option_wrap input[type="text"],
+.isures_option_wrap input[type="number"] {
+    width: 100%!important;
+}
+
+.isures-cont--field textarea {
+    box-shadow: none;
+    border: 1px solid #e0e0e0;
+    padding: 5px 10px;
+    color: #777;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.wrap-inner {
+    background: #fff;
+    margin: 15px auto;
+    border: 1px solid #ddd;
+}
+
+.isures-element--wrap .wrap-inner .toggle-sh {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    background: #fff;
+}
+
+.isures-global--title {
+    margin-bottom: 10px!important;
+    font-weight: bold;
+}
+
+.isures-element--wrap .col-left {
+    flex-basis: 35%;
+    border-right: 1px solid #ddd;
+    padding: 15px;
+}
+
+.isures-element--wrap .col-left p label {
+    width: 70%;
+    display: inline-block;
+    margin: 0;
+}
+
+.isures-element--wrap .col-left p input {
+    max-width: 100px;
+}
+
+.isures-element--wrap .col-right {
+    flex-basis: 65%;
+    padding: 15px;
+}
+
+#isures-save {
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.isures-title--wrap {
+    flex-basis: 100%;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50px;
+    cursor: move;
+}
+
+.multi-option .isures-move--extra {
+    cursor: move!important;
+}
+
+span.isures-title--name {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+.addOption {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+}
+
+.isures-element--wrap .isures-slide-up,
+.isures-element--wrap .dashicons-trash {
+    cursor: pointer
+}
+
+span.isures-slide-up {
+    text-decoration: underline;
+}
+
+.isures-setup--options {
+    position: relative;
+    max-width: 1150px;
+    margin: 5px 15px 0;
+    background: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.multi-option span.dashicons {
+    cursor: pointer;
+}
+
+.wrap-inner span.dashicons:hover,
+.isures-slide-up:hover {
+    color: #0088cc
+}
+
+.multi-option:first-child span.dashicons.dashicons-arrow-up.isures-up {
+    display: none;
+}
+
+.multi-option:last-child span.dashicons.dashicons-arrow-down.isures-down {
+    display: none;
+}
+
+span.dashicons.dashicons-arrow-up.isures-up {
+    float: left;
+}
+
+span.remove.dashicons.dashicons-trash {
+    float: right;
+}

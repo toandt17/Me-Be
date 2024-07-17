@@ -1,0 +1,183 @@
+/* For sd-fee-modify */
+div#sd-fee-modify .sd-btn:hover {
+  font-weight: bold;
+}
+
+p.description-content {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+p.description-black-text {
+  font-size: 16px;
+}
+
+.fee-modify-list__header {
+  padding: 0px 12px;
+}
+
+.fee-modify-list__header input[type="checkbox"] {
+  float: left;
+  visibility: collapse;
+}
+
+.fee-modify-list__header b {
+  color: darkgray;
+}
+
+div.fee-modify-info {
+  display: flex;
+}
+
+div.fee-modify-container input.active-fee {
+  margin: 15px 10px 0 0;
+}
+
+div.fee-modify-container input[type="text"] {
+  width: 100%;
+}
+
+.all-conditions-group {
+  margin-left: 20px;
+}
+
+div.custom-col {
+  padding: 10px;
+}
+
+div#sd-fee-modify b.header-inside {
+  color: darkgray;
+  display: none;
+}
+
+.sd-btn {
+  cursor: pointer;
+}
+
+div.inc-dec-area {
+  display: flex;
+}
+
+.btn_inc_index,
+.btn_dec_index {
+  margin: 0 0 10px 10px;
+  width: 60px;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_remove_condition {
+  float: left;
+  margin-top: 7px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn_remove_condition:hover {
+  background-color: #e9e9e9;
+}
+
+.btn_add_condition {
+  margin-left: 10px;
+}
+
+.sl_fee_option_sub_type,
+.fee_option_val,
+.from_time_val,
+.to_time_val {
+  margin-top: 20px;
+}
+
+div#sd-fee-modify .courier-img {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+div#sd-fee-modify .courier-img img {
+  width: 148px;
+  max-height: 48px;
+  object-fit: contain;
+}
+
+div.col-notes {
+  padding: 0 10px;
+}
+
+p.notes-title {
+  margin: 0;
+}
+
+textarea.notes-content {
+  width: 100%;
+  resize: none;
+  height: 80px;
+}
+
+div.div-btn-function {
+  margin: 10px 0px 10px 25px;
+}
+
+.btn_delete_fee {
+  margin: 0px 10px;
+}
+
+@media screen and (max-width: 1199px) {
+  .fee-modify-list__header {
+    display: none;
+  }
+
+  div.custom-col {
+    margin: 10px 0;
+    background-color: #f8f8f8;
+  }
+
+  /* div.custom-col::after {
+    content: "";
+    border-bottom: var(--sd-border-style);
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 0px;
+  } */
+
+  div#sd-fee-modify b.header-inside {
+    display: block;
+  }
+
+  div.col-notes {
+    padding: 10px;
+  }
+
+  p.notes-title {
+    color: darkgray;
+    font-weight: bold;
+  }
+
+  div.div-btn-function {
+    margin: 10px 0px;
+    text-align: center;
+  }
+
+  /* Remove border bottom of last courier container */
+  div#sd-fee-modify div.courier-container:last-child {
+    border-bottom: none;
+    padding: 20px 0 10px 0;
+  }
+
+  /*  */
+}
+
+@media screen and (max-width: 991px) {
+  div.fee-modify-info {
+    flex-direction: column;
+  }
+
+  div.inc-dec-btn-area {
+    display: flex;
+  }
+
+  div#sd-fee-modify .checkbox_container {
+    margin-top: 16px;
+  }
+}

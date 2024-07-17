@@ -1,0 +1,59 @@
+:root {
+  --img-service-width: 150px;
+  --text-desc-color: #646970;
+}
+
+.sd-div label {
+  cursor: pointer;
+}
+
+.hidden-field {
+  display: none;
+}
+
+#shipping_fee_content div.sd-modal-content {
+  width: 550px;
+}
+
+#shipping_fee_content #btnModalOK {
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+}
+
+#shipping_fee_content div.courier-fee {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  flex-direction: column;
+}
+
+#shipping_fee_content .service-fee {
+  display: flex;
+  align-items: flex-start;
+}
+
+#sd_reload_shipping {
+  text-decoration: none;
+  background-color: #0064ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 599px) {
+  /* .courier-fee {
+    flex-direction: column;
+  } */
+
+  /* .courier-fee img {
+    margin: 0 auto 16px auto;
+  } */
+
+  .service-fee {
+    width: 100%;
+    padding-left: 0;
+  }
+}

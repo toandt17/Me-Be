@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iSures Suggest Discount Code\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-15 11:35+0000\n"
+"PO-Revision-Date: 2022-12-09 12:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Tiếng Việt\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.1\n"
+"X-Domain: isures-suggest-discount-code"
+
+#: admin/partials/inc/about-us.php:15
+msgid ""
+"A plugin to filter products, widget options like: <strong> filter by "
+"attribute, filter by price, category... </strong> Supports screen shapes "
+"like <strong> images, colors , text </strong>."
+msgstr ""
+"Một plugin để lọc các sản phẩm, các widget tùy chọn như: <strong> Lọc theo "
+"thuộc tính, lọc theo giá, danh mục </strong>... Hỗ trợ các dạng hiển thị như "
+"image, color, text."
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:56
+#: admin/partials/inc/about-us.php:2
+msgid "About us"
+msgstr "Về chúng tôi"
+
+#: helpers/functions.php:43
+msgid "Applied"
+msgstr "Đã áp dụng"
+
+#: helpers/functions.php:46 helpers/functions.php:84
+msgid "Apply"
+msgstr "Áp dụng"
+
+#: admin/partials/inc/about-us.php:27
+msgid ""
+"Appointment booking plugin for salons can choose service + technician + date "
+"and time, send notification when someone book an appointment via email & "
+"telegram..."
+msgstr ""
+"Plugin đặt lịch hẹn cho các salon có thể chọn dịch vụ + thợ + ngày giờ, gửi "
+"thông báo khi có người đặt lịch qua email & telegram…"
+
+#: admin/partials/inc/how-to-use.php:10
+msgid ""
+"At section setting \"SUGGEST DISCOUNT CODE\" > choose suggested discount "
+"codes"
+msgstr ""
+"Tại section cài đặt \"SUGGEST DISCOUNT CODE\" > chọn các mã giảm giá muốn "
+"gợi ý"
+
+#: admin/partials/inc/how-to-use.php:8
+msgid ""
+"At the product edit page: Tab \"Coupon suggest\" > choose suggested discount "
+"codes"
+msgstr ""
+"Tại trang đăng sản phẩm: Tab \"Coupon suggest\" > chọn các mã giảm giá muốn "
+"gợi ý"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:117
+msgid "Below excerpt"
+msgstr "Dưới mô tả ngắn"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:116
+msgid "Below price"
+msgstr "Dưới giá"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:115
+msgid "Below title"
+msgstr "Dưới tiêu đề"
+
+#: admin/partials/inc/about-us.php:73
+msgid ""
+"Build PC for Woocommerce is an extension for woocommerce plugin. The Build "
+"PC feature make shoppers easy to build PCs according to their needs. A "
+"greatest sales solution if you are in the computer parts business. This "
+"plugin includes features such as product options, attribute filters, ajax "
+"pagination, add to cart multi product ajax."
+msgstr ""
+"Plugin Build PC giúp người mua dễ dàng tạo PC theo nhu cầu của họ. Một giải "
+"pháp bán hàng tuyệt vời nhất nếu bạn đang kinh doanh bộ phận máy tính. "
+"Plugin hỗ lọc AJAX thuộc tính, phân trang AJAX... Xuất file cấu hình với "
+"dạng hình ảnh, PDF và Excel..."
+
+#: public/class-isures-suggest-discount-code-public.php:106
+msgid "Close"
+msgstr "Đóng"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:173
+msgid "Color"
+msgstr "Màu sắc"
+
+#: helpers/functions.php:143
+msgid "Conditions"
+msgstr "Điều kiện"
+
+#: admin/class-isures-suggest-discount-code-admin.php:87
+msgid "Contact Support"
+msgstr "Liên hệ hỗ trợ"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:34
+msgid "Contact us"
+msgstr "Liên hệ chúng tôi"
+
+#: helpers/functions.php:115
+msgid "Coupon code"
+msgstr "Mã giảm giá"
+
+#: admin/class-isures-suggest-discount-code-admin.php:63
+msgid "Coupon Settings"
+msgstr ""
+
+#: classes/src/isures-sdc-product-data.php:30
+msgid "Coupon suggest"
+msgstr "Mã giảm giá gợi ý"
+
+#: admin/partials/inc/about-us.php:84
+msgid ""
+"Create flash sale campaigns quickly, centrally manage and can create "
+"unlimited campaigns. Run at preset intervals or repeat at daily intervals."
+msgstr ""
+"Tạo chiến dịch flash sale nhanh chóng, quản lý tập trung và có thể tạo chiến "
+"dịch không giới hạn. Chạy theo khoảng thời gian đặt trước hoặc lặp lại trong "
+"khoảng thời gian hàng ngày."
+
+#: classes/src/isures-sdc-tab-data.php:91
+msgid "Detailed description of the conditions"
+msgstr "Mô tả chi tiết các điều kiện "
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:132
+#: admin/partials/isures-suggest-discount-code-admin-display.php:142
+#: admin/partials/isures-suggest-discount-code-admin-display.php:152
+#: admin/partials/isures-suggest-discount-code-admin-display.php:162
+#: admin/partials/isures-suggest-discount-code-admin-display.php:197
+msgid "Disable"
+msgstr "Tắt"
+
+#: public/class-isures-suggest-discount-code-public.php:105
+msgid "Discount code applied"
+msgstr "Đã áp dụng mã giảm giá"
+
+#: admin/class-isures-suggest-discount-code-admin.php:81
+#: admin/partials/isures-suggest-discount-code-admin-display.php:35
+msgid "Document"
+msgstr "Tài liệu"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:131
+#: admin/partials/isures-suggest-discount-code-admin-display.php:141
+#: admin/partials/isures-suggest-discount-code-admin-display.php:151
+#: admin/partials/isures-suggest-discount-code-admin-display.php:161
+#: admin/partials/isures-suggest-discount-code-admin-display.php:196
+msgid "Enable"
+msgstr "Bật"
+
+#: helpers/functions.php:128 helpers/functions.php:177
+msgid "Expiration date"
+msgstr "Ngày hết hạn"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:53
+msgid "General"
+msgstr "Chung"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:108
+msgid ""
+"General discount code suggestion. You can create a suggested discount code "
+"for each product"
+msgstr ""
+"Gợi ý mã giảm giá chung. Bạn có thể tạo mã giảm giá gợi ý cho từng sản phẩm"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:126
+msgid "Global settings"
+msgstr "Cài đặt chung"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:55
+#: admin/partials/inc/how-to-use.php:2
+msgid "How to use"
+msgstr "Cách sử dụng"
+
+#. Author URI of the plugin
+msgid "https://plugin68.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://plugin68.com/sanpham/isures-suggest-discount-code-share-plugin/"
+msgstr ""
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:199
+msgid "Include Library MagnificPopup"
+msgstr "Nhúng thư viện MagnificPopup"
+
+#: helpers/functions.php:134 helpers/functions.php:179
+msgid "Indefinite"
+msgstr "Không thời hạn"
+
+#: classes/src/isures-sdc-tab-data.php:51
+msgid "iSures Coupon Data"
+msgstr "Dữ liệu iSures Coupon"
+
+#. Name of the plugin
+msgid "iSures Suggest Discount Code"
+msgstr ""
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:190
+msgid "Library"
+msgstr "Thư viện"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:54
+msgid "Library & Style"
+msgstr "Thư viện & Style"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:193
+msgid "MagnificPopup"
+msgstr ""
+
+#: classes/src/isures-sdc-product-data.php:81
+#: admin/partials/isures-suggest-discount-code-admin-display.php:104
+msgid "No discount codes exist"
+msgstr "Không tồn tại mã giảm giá nào"
+
+#: admin/class-isures-save-setting.php:41
+msgid "Not found for "
+msgstr "Không tìm thấy cho"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:29
+msgid "Options Updated"
+msgstr "Đã cập nhật"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:36
+msgid "Others Plugin"
+msgstr "Plugins khác"
+
+#: helpers/functions.php:28 helpers/functions.php:63
+msgid "Our discount codes"
+msgstr "Mã giảm giá của chúng tôi"
+
+#: classes/src/isures-sdc-product-data.php:76
+#: admin/partials/isures-suggest-discount-code-admin-display.php:99
+msgid "Please enter 3 or more characters"
+msgstr "Vui lòng nhập 3 hoặc nhiều ký tự"
+
+#: admin/partials/inc/about-us.php:62
+msgid ""
+"Plugin Compare products in the same category, Search for products quickly "
+"and accurately according to the category of products being compared."
+msgstr ""
+"Plugin So sánh các sản phẩm cùng danh mục, Tìm kiếm sản phẩm nhanh chóng và "
+"chính xác theo danh mục sản phẩm đang so sánh."
+
+#: admin/partials/inc/about-us.php:39
+msgid ""
+"Plugin for ordering food and drink products, with many outstanding features: "
+"create extra topping, [ Apply discount code, add to cart, edit order, quick "
+"order ] => use AJAX , and More features…"
+msgstr ""
+"Plugin gọi đồ ăn thức uống, với nhiều tính năng nổi bật: tạo thêm topping, "
+"[Áp dụng mã giảm giá, thêm vào giỏ hàng, sửa đơn hàng, đặt hàng nhanh] => sử "
+"dụng AJAX, và nhiều tính năng khác…"
+
+#. Author of the plugin
+msgid "Plugin68.com"
+msgstr ""
+
+#: admin/partials/inc/about-us.php:5
+msgid ""
+"Plugins with high compatibility can use <strong>all wordpress themes</strong>"
+"."
+msgstr ""
+"ác plugin có khả năng tương thích cao có thể sử dụng <strong>tất cả các "
+"theme của wordpress</strong>."
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:112
+msgid "Position single product"
+msgstr "Vị trí tại trang chi tiết"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:120
+msgid "Position suggest coupon in single product"
+msgstr "Vị trí hiển thị mã giảm giá theo từng sản phẩm tại trang chi tiết"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:175
+#: admin/partials/isures-suggest-discount-code-admin-display.php:178
+msgid "Primary color"
+msgstr "Màu chính"
+
+#: helpers/functions.php:81
+msgid "Remove"
+msgstr "Gỡ bỏ"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:154
+msgid "Remove default coupon form on cart page"
+msgstr "Xoá form coupon mặc định tại trang giỏ hàng"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:164
+msgid "Remove default coupon form on checkout page"
+msgstr "Xoá form coupon mặc định tại trang thanh toán"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:148
+msgid "Remove form on cart"
+msgstr ""
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:158
+msgid "Remove form on checkout"
+msgstr ""
+
+#: admin/partials/inc/about-us.php:95
+msgid ""
+"Reward your customers for purchases and other actions with points that can "
+"be redeemed for discounts. Easily set how many points customers should earn "
+"for each dollar spent and how many points can be redeemed for a specific "
+"discount amount. Points can be awarded by create account, write a review "
+"products, wheel of future, or event buy minimum order to get points..."
+msgstr ""
+"Thưởng điểm và dùng điểm áp dụng giảm giá để mua hàng. Dễ dàng cài đặt tỉ "
+"giá và số điểm nhận được. Điểm có thể được thưởng bằng cách tạo tài khoản, "
+"viết đánh giá sản phẩm, quay vòng quay may mắn hoặc sự kiện mua đơn hàng tối "
+"thiểu để nhận điểm..."
+
+#: public/class-isures-suggest-discount-code-public.php:107
+#: helpers/functions.php:190
+msgid "Save code"
+msgstr "Lưu mã"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:214
+msgid "Save Settings"
+msgstr "Lưu cài đặt"
+
+#: classes/src/isures-sdc-product-data.php:56
+#: admin/partials/isures-suggest-discount-code-admin-display.php:79
+msgid "Search discount codes"
+msgstr "Tìm kiếm mã giảm giá"
+
+#: classes/src/isures-sdc-product-data.php:72
+#: admin/partials/isures-suggest-discount-code-admin-display.php:95
+msgid "Search discount codes..."
+msgstr "Tìm kiếm mã giảm giá..."
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:182
+#: admin/partials/isures-suggest-discount-code-admin-display.php:185
+msgid "Secondary color"
+msgstr "Màu phụ"
+
+#: admin/partials/inc/how-to-use.php:5
+msgid ""
+"Select suggested discount codes. You can choose for each product "
+"separately(1) or Or suggest codes overview(2)"
+msgstr ""
+"Chọn mã giảm giá gợi ý. Bạn có thể chọn theo từng sản phẩm(1) hoặc chọn "
+"chung các mã giảm giá(2)"
+
+#: includes/class-isures-update-en-free.php:54
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: admin/partials/inc/how-to-use.php:6
+msgid "Shortcode support"
+msgstr "Shortcode hỗ trợ"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:134
+msgid "Showing coupon suggestions on cart page"
+msgstr "Hiển thị các mã giảm giá tại trang giỏ hàng"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:144
+msgid "Showing coupon suggestions on checkout page"
+msgstr "Hiển thị các mã giảm giá tại trang thanh toán"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:128
+msgid "Showing on cart"
+msgstr ""
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:138
+msgid "Showing on checkout"
+msgstr ""
+
+#: admin/partials/inc/about-us.php:10
+msgid "Some of our featured plugins"
+msgstr "Một số plugins nổi bật của chúng tôi"
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:61
+#: admin/partials/isures-suggest-discount-code-admin-display.php:63
+msgid "Suggest discount code"
+msgstr "Mã giảm giá gợi ý"
+
+#: admin/partials/inc/about-us.php:51
+msgid ""
+"The Combo Offers feature is used to create bundled product combos with "
+"discount, timer feature and countdown display combo time. Increase single "
+"closing rate with just a few simple steps. Be logical and calculate a "
+"reasonable discount to convince your customers."
+msgstr ""
+"Tính năng Combo Offers được sử dụng để tạo combo sản phẩm bán kèm có "
+"discount, tính năng hẹn giờ và đếm ngược thời gian hiển thị combo. Tăng tỉ "
+"lệ chốt đơn chỉ với vài thao tác đơn giản. Hãy logic và tính toán giá giảm "
+"thật hợp lý để thuyết phục khách hàng của bạn."
+
+#. Description of the plugin
+msgid ""
+"The plugin suggests discount codes to customers, applying AJAX discount "
+"codes. A trick to increase your order value, let's logically create "
+"attractive discount codes."
+msgstr ""
+"Plugin gợi ý mã giảm giá cho khách hàng, áp dụng mã giảm giá AJAX. Một mẹo "
+"nhỏ để tăng giá trị đơn hàng, bạn hãy tạo các mã giảm giá hấp dẫn một cách "
+"hợp lý."
+
+#: admin/partials/isures-suggest-discount-code-admin-display.php:118
+msgid "Use shortcode [isures_sdc_single]"
+msgstr "Sử dụng shortcode [isures_sdc_single]"
+
+#: admin/partials/inc/about-us.php:17 admin/partials/inc/about-us.php:29
+#: admin/partials/inc/about-us.php:41 admin/partials/inc/about-us.php:53
+#: admin/partials/inc/about-us.php:64 admin/partials/inc/about-us.php:75
+#: admin/partials/inc/about-us.php:86 admin/partials/inc/about-us.php:97
+msgid "View Demo"
+msgstr "Xem demo"
+
+#: admin/partials/inc/how-to-use.php:12 admin/partials/inc/about-us.php:18
+#: admin/partials/inc/about-us.php:30 admin/partials/inc/about-us.php:42
+#: admin/partials/inc/about-us.php:54 admin/partials/inc/about-us.php:65
+#: admin/partials/inc/about-us.php:76 admin/partials/inc/about-us.php:87
+msgid "View Detail"
+msgstr "Xem chi tiết"
+
+#: admin/partials/inc/about-us.php:4
+msgid ""
+"We are a unit specializing in developing <strong>wordpress plugins</strong>, "
+"with the desire to provide customers with the best products."
+msgstr ""
+"Chúng tôi là đơn vị chuyên phát triển <strong>plugin wordpress</strong> với "
+"mong muốn mang đến cho khách hàng những sản phẩm tốt nhất."
+
+#: admin/partials/inc/about-us.php:6
+msgid ""
+"With many plugins to help increase conversions when selling, increasing the "
+"experience on your website."
+msgstr ""
+"Với nhiều plugin giúp tăng lượt chuyển đổi khi bán hàng, tăng trải nghiệm "
+"trên website của bạn."

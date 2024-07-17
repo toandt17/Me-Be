@@ -1,0 +1,466 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-09-15 08:57+0700\n"
+"PO-Revision-Date: 2022-09-15 09:12+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Ship_Depot_init.php:48
+msgid "Awaiting shipment"
+msgstr ""
+
+#: Ship_Depot_init.php:49
+msgid "In Transit"
+msgstr ""
+
+#: Ship_Depot_init.php:50
+msgid "Out for Delivery"
+msgstr ""
+
+#: Ship_Depot_init.php:51
+msgid "Delivered"
+msgstr ""
+
+#: Ship_Depot_init.php:52
+msgid "Delivery Failed"
+msgstr ""
+
+#: page/admin/settings/sd-about.php:8
+msgid "Giới thiệu"
+msgstr "About"
+
+#: page/admin/settings/sd-about.php:9
+msgid ""
+"ShipDepot hiểu sự phức tạp của xử lý vận đơn trong tình hình nhiều đơn vị "
+"vận chuyển và số lượng dịch vụ vận chuyển như hiện nay. Giải pháp của "
+"ShipDepot là tạo ra một nền tảng đơn giản hoá việc xử lý vận đơn với các ưu "
+"điểm:"
+msgstr ""
+
+#: page/admin/settings/sd-about.php:12
+msgid "Chỉ một tài khoản có thể theo dõi đơn hàng với nhiều đơn vị vận chuyển"
+msgstr ""
+
+#: page/admin/settings/sd-about.php:16
+msgid ""
+"Chủ động lựa chọn đơn vị vận chuyển mà không cần đăng ký tài khoản với từng "
+"đơn vị vận chuyển"
+msgstr ""
+
+#: page/admin/settings/sd-about.php:20
+msgid "Chủ động điều chỉnh biểu phí giao hàng đối với khách hàng của bạn"
+msgstr ""
+
+#: page/admin/settings/sd-about.php:24
+msgid "Hưởng chiết khấu phí giao hàng"
+msgstr ""
+
+#: page/admin/settings/sd-about.php:28
+msgid "Quản lý dư nợ thu hộ COD ở một chỗ"
+msgstr ""
+
+#: page/admin/settings/sd-about.php:30
+msgid "Trợ giúp"
+msgstr "Help"
+
+#: page/admin/settings/sd-about.php:31
+msgid "Video và các hướng dẫn sử dụng có thể xem tại "
+msgstr ""
+
+#: page/admin/settings/sd-about.php:32
+msgid "License"
+msgstr ""
+
+#: page/admin/settings/sd-about.php:33
+msgid ""
+"Miễn phí đối với plugin và một số tính năng. Xem thêm chi tiết tại "
+msgstr ""
+
+#: page/admin/settings/sd-about.php:34
+msgid "Phiên bản plugin"
+msgstr ""
+
+#: page/admin/settings/sd-about.php:35
+msgid "Version 1.0.1 update 20220725"
+msgstr ""
+
+#: page/admin/settings/sd-couriers.php:9
+msgid "Đơn vị vận chuyển và dịch vụ cho đơn hàng"
+msgstr ""
+
+#: page/admin/settings/sd-couriers.php:10
+msgid ""
+"Chọn các đơn vị vận chuyển cùng với dịch vụ tương ứng sẽ được chọn khi tạo "
+"đơn hàng."
+msgstr ""
+
+#: page/admin/settings/sd-couriers.php:125
+msgid "Thanh toán khi nhận hàng (COD)"
+msgstr ""
+
+#: page/admin/settings/sd-fee-modify.php:268
+msgid "Ví dụ: 15000"
+msgstr "Ex:100"
+
+#: page/admin/settings/sd-fee-modify.php:271 page/admin/settings/sd-fee-modify.php:279
+#: page/admin/settings/sd-fee-modify.php:346 page/admin/settings/sd-fee-modify.php:931
+msgid "Ví dụ: 1,5"
+msgstr "Ex:1,5"
+
+#: page/admin/settings/sd-fee-modify.php:281
+msgid "Ví dụ: 25000"
+msgstr "Ex:200"
+
+#: page/admin/settings/sd-fee-modify.php:308 page/admin/settings/sd-fee-modify.php:781
+msgid "Tăng"
+msgstr "Increase"
+
+#: page/admin/settings/sd-fee-modify.php:312 page/admin/settings/sd-fee-modify.php:785
+msgid "Giảm"
+msgstr "Decrease"
+
+#: page/admin/settings/sd-fee-modify.php:322 page/admin/settings/sd-fee-modify.php:798
+#: page/admin/settings/sd-fee-modify.php:906
+msgid "Giá trị đơn hàng"
+msgstr "Order total amount"
+
+#: page/admin/settings/sd-fee-modify.php:323 page/admin/settings/sd-fee-modify.php:821
+#: page/admin/settings/sd-fee-modify.php:907
+msgid "Có sản phẩm trong đơn hàng"
+msgstr "Have item(s)"
+
+#: page/admin/settings/sd-fee-modify.php:324 page/admin/settings/sd-fee-modify.php:841
+#: page/admin/settings/sd-fee-modify.php:908
+msgid "Số lượng mặt hàng trong đơn"
+msgstr "Item quantity"
+
+#: page/admin/settings/sd-fee-modify.php:325 page/admin/settings/sd-fee-modify.php:871
+#: page/admin/settings/sd-fee-modify.php:909
+msgid "Thanh toán: Chuyển khoản"
+msgstr "Payment: Transfer"
+
+#: page/admin/settings/sd-fee-modify.php:326 page/admin/settings/sd-fee-modify.php:890
+#: page/admin/settings/sd-fee-modify.php:910
+msgid "Thanh toán: COD"
+msgstr "Payment: COD"
+
+#: page/admin/settings/sd-fee-modify.php:329 page/admin/settings/sd-fee-modify.php:913
+msgid "[Thêm ĐK]"
+msgstr "[Add Condition]"
+
+#: page/admin/settings/sd-fee-modify.php:337 page/admin/settings/sd-fee-modify.php:922
+msgid "Dựa trên ShipDepot"
+msgstr "Depend on ShipDepot"
+
+#: page/admin/settings/sd-fee-modify.php:338 page/admin/settings/sd-fee-modify.php:923
+msgid "Phí cố định (vnđ)"
+msgstr "Fixed fee"
+
+#: page/admin/settings/sd-fee-modify.php:341 page/admin/settings/sd-fee-modify.php:926
+msgid "Tăng (%)"
+msgstr "Increase (%)"
+
+#: page/admin/settings/sd-fee-modify.php:342 page/admin/settings/sd-fee-modify.php:927
+msgid "Giảm (%)"
+msgstr "Decrease (%)"
+
+#: page/admin/settings/sd-fee-modify.php:343 page/admin/settings/sd-fee-modify.php:928
+msgid "Tăng (vnđ)"
+msgstr "Increase ($)"
+
+#: page/admin/settings/sd-fee-modify.php:344 page/admin/settings/sd-fee-modify.php:929
+msgid "Giảm (vnđ)"
+msgstr "Decrease ($)"
+
+#: page/admin/settings/sd-fee-modify.php:350 page/admin/settings/sd-fee-modify.php:358
+#: page/admin/settings/sd-fee-modify.php:935 page/admin/settings/sd-fee-modify.php:957
+msgid "Tất cả"
+msgstr "All time"
+
+#: page/admin/settings/sd-fee-modify.php:351 page/admin/settings/sd-fee-modify.php:936
+msgid "Khoảng thời gian"
+msgstr "Period"
+
+#: page/admin/settings/sd-fee-modify.php:352 page/admin/settings/sd-fee-modify.php:952
+msgid "Từ ngày ("
+msgstr "From date ("
+
+#: page/admin/settings/sd-fee-modify.php:353 page/admin/settings/sd-fee-modify.php:953
+msgid "Đến ngày ("
+msgstr "To date ("
+
+#: page/admin/settings/sd-fee-modify.php:359 page/admin/settings/sd-fee-modify.php:958
+msgid "Tự chọn"
+msgstr "Customize"
+
+#: page/admin/settings/sd-fee-modify.php:422 page/admin/settings/sd-fee-modify.php:1047
+msgid "Ghi chú"
+msgstr "Notes"
+
+#: page/admin/settings/sd-fee-modify.php:430 page/admin/settings/sd-fee-modify.php:1055
+msgid "Xóa"
+msgstr "Delete"
+
+#: page/admin/settings/sd-fee-modify.php:434 page/admin/settings/sd-fee-modify.php:1059
+msgid "Copy tạo mới"
+msgstr "Copy"
+
+#: page/admin/settings/sd-fee-modify.php:522 page/admin/settings/sd-fee-modify.php:806
+msgid "Từ (vnđ)"
+msgstr "From ($)"
+
+#: page/admin/settings/sd-fee-modify.php:525 page/admin/settings/sd-fee-modify.php:809
+msgid "Đến (vnđ)"
+msgstr "To ($)"
+
+#: page/admin/settings/sd-fee-modify.php:530 page/admin/settings/sd-fee-modify.php:546
+#: page/admin/settings/sd-fee-modify.php:565 page/admin/settings/sd-fee-modify.php:581
+#: page/admin/settings/sd-fee-modify.php:597 page/admin/settings/sd-fee-modify.php:814
+#: page/admin/settings/sd-fee-modify.php:834 page/admin/settings/sd-fee-modify.php:857
+#: page/admin/settings/sd-fee-modify.php:876 page/admin/settings/sd-fee-modify.php:895
+msgid "và"
+msgstr "and"
+
+#: page/admin/settings/sd-fee-modify.php:541
+msgid "Mã SP cách bởi dấu phẩy"
+msgstr ""
+
+#: page/admin/settings/sd-fee-modify.php:557 page/admin/settings/sd-fee-modify.php:849
+msgid "Từ (SL)"
+msgstr "From (qty)"
+
+#: page/admin/settings/sd-fee-modify.php:560 page/admin/settings/sd-fee-modify.php:852
+msgid "Đến (SL)"
+msgstr "To (qty)"
+
+#: page/admin/settings/sd-fee-modify.php:709
+msgid ""
+"Tính năng này cho phép bạn định nghĩa lại phí vận chuyển hiển thị khi tạo "
+"đơn hàng dựa trên một số tiền đề và điều kiện đã biết trước. Các kịch bản "
+"dưới đây sẽ giúp bạn hiểu rõ về tính năng đặc biệt này."
+msgstr ""
+
+#: page/admin/settings/sd-fee-modify.php:711
+msgid "Kịch bản 1:"
+msgstr "Case 1:"
+
+#: page/admin/settings/sd-fee-modify.php:713
+msgid ""
+"Nếu phí giao hàng cho đơn hàng A từ bạn đến khách hàng là 10.000đ (phí từ "
+"shipdepot) và bạn có kế hoạch giảm phí giao hàng còn 0đ cho tất cả đơn hàng "
+"có tổng giá trị dưới 100.000đ thì bạn sẽ dùng tính năng này để thiết lập lại "
+"biểu phí giao hàng."
+msgstr ""
+
+#: page/admin/settings/sd-fee-modify.php:715
+msgid "Kịch bản 2:"
+msgstr "Case 2:"
+
+#: page/admin/settings/sd-fee-modify.php:717
+msgid ""
+"Bạn bán sản phẩm có giá trị cao hơn 1.000.000đ và muốn tăng phí giao hàng "
+"với mục đích nào đó, bạn vẫn có thể dùng tính năng này để thay đổi."
+msgstr ""
+
+#: page/admin/settings/sd-fee-modify.php:719
+msgid "Kịch bản 3:"
+msgstr "Case 3:"
+
+#: page/admin/settings/sd-fee-modify.php:721
+msgid ""
+"Trường hợp bạn muốn phí giao hàng thay đổi dựa trên combo sản phẩm hoặc số "
+"lượng sản phẩm thì cũng dùng tính năng này."
+msgstr ""
+
+#: page/admin/settings/sd-fee-modify.php:724
+msgid ""
+"Còn nhiều kịch bản khác, có thể xem thêm tại "
+msgstr ""
+
+#: page/admin/settings/sd-fee-modify.php:728
+msgid ""
+"Tuy nhiên, cho dù là thay đổi tăng hay giảm biểu phí thì bạn vẫn phải thanh "
+"toán số tiền phí cho đơn vị vận chuyển đúng với giá trị từ ShipDepot gửi về "
+"vì việc thay đổi biểu phí này là chiến lược của bạn mà thôi. "
+msgstr ""
+
+#: page/admin/settings/sd-fee-modify.php:732
+msgid ""
+"Nếu không bật tính năng này thì phí vận chuyển luôn lấy từ ShipDepot, ngược "
+"lại nếu tìm thấy một biểu phí vận chuyển từ bảng bên dưới thì bạn vẫn phải "
+"trả phí vận chuyển tương ứng từ ShipDepot cho đơn vị vận chuyển khi đến lấy "
+"hàng."
+msgstr ""
+
+#: page/admin/settings/sd-fee-modify.php:734
+msgid "[Thêm biểu phí]"
+msgstr "[Add fee]"
+
+#: page/admin/settings/sd-fee-modify.php:742
+msgid "Độ ưu tiên"
+msgstr ""
+
+#: page/admin/settings/sd-fee-modify.php:745
+msgid "Nếu như"
+msgstr "If"
+
+#: page/admin/settings/sd-fee-modify.php:750
+msgid "Thì phí vận chuyển"
+msgstr "Shipping fee"
+
+#: page/admin/settings/sd-fee-modify.php:753
+msgid "Thời gian áp dụng"
+msgstr "Time apply"
+
+#: page/admin/settings/sd-fee-modify.php:756
+msgid "Đối với đơn vị vận chuyển"
+msgstr "Courier(s) apply"
+
+#: page/admin/settings/sd-general-settings.php:11
+msgid ""
+"Dùng để liên kết tài khoản ShipDepot với vận đơn gửi từ đây. API Key nhận "
+"được sau khi đăng ký tài khoản với ShipDepot, có thể xem thêm hướng dẫn tại "
+"đây"
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:17
+msgid ""
+"Copy địa chỉ webhook bên dưới rồi cập nhật vào tài khoản của bạn ở ShipDepot "
+"để đảm bảo trạng thái vận đơn được cập nhật từ đơn vị vận chuyển sẽ gửi đến "
+"bạn."
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:22
+msgid "Thông tin người gửi (chủ shop / chủ cửa hàng)"
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:23
+msgid ""
+"Thông tin này được in trên phiếu gửi hàng và được thiết lập bởi ShipDepot "
+"khi bạn đăng ký tài khoản, bạn cần liên hệ ShipDepot để thay đổi. Xem thêm "
+"tại"
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:26
+msgid "Kho hàng"
+msgstr "Storage"
+
+#: page/admin/settings/sd-general-settings.php:27
+msgid ""
+"Thay đổi hoặc bổ sung kho hàng cần thực hiện tại ShipDepot. Xem thêm tại"
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:66
+msgid "Vận đơn"
+msgstr "Tracking"
+
+#: page/admin/settings/sd-general-settings.php:67
+msgid ""
+"Vận đơn cần được tạo và gửi đến ShipDepot để đơn vị vận chuyển thực hiện "
+"giao hàng. Bạn có thể thiết lập tự động tạo vận đơn và gửi đến ShipDepot dựa "
+"theo các tuỳ chọn bên dưới."
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:69
+msgid ""
+"Tự động tạo và gửi vận đơn đến ShipDepot khi đơn hàng ở các trạng thái sau "
+"đây"
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:70
+msgid "Nếu không bật tính năng này, bạn sẽ phải tự thực hiện tạo vận đơn."
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:90
+msgid "[Thiết lập nâng cao]"
+msgstr "[Advance settings]"
+
+#: page/admin/settings/sd-general-settings.php:92
+msgid ""
+"Chú ý: Không thay đổi các thiết lập bên dưới nếu bạn chưa thật hiểu rõ về "
+"chúng."
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:95
+msgid "Đang giao hàng"
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:97
+msgid ""
+"Tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động khi vận đơn "
+"đang trên đường giao đến khách hàng."
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:111
+msgid "Giao hàng thành công"
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:113
+msgid ""
+"Trường hợp vận đơn đã hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng "
+"thái đơn hàng tự động."
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:128
+msgid "Giao hàng không thành công"
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:130
+msgid ""
+"Nếu vận đơn không thể hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng "
+"thái đơn hàng tự động."
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:144
+msgid "Đồng bộ thiết lập từ ShipDepot"
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:146
+msgid ""
+"Các thiết lập trên tài khoản của bạn ở ShipDepot sẽ tự động đồng bộ đến đây, "
+"trường hợp ngoài ý muốn không tự động đồng bộ thì bạn có thể chủ động thực "
+"hiện bằng cách bấm [Đồng bộ thiết lập từ ShipDepot] ở trên."
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:149
+msgid "Ghi debug log"
+msgstr ""
+
+#: page/admin/settings/sd-general-settings.php:150
+msgid ""
+"Debug log cung cấp thêm thông tin chi tiết quá trình xử lý vận đơn từ đây "
+"với ShipDepot, những thông tin này sẽ giúp bạn hiểu rõ hơn các vấn đề liên "
+"quan tới việc hoàn thành vận đơn. Tuy nhiên thông tin chi tiết có thể làm lộ "
+"thông tin cá nhân của bạn và khách hàng, bạn nên cân nhắc khi bật tính năng "
+"này."
+msgstr ""
+
+#: includes/class-ship-depot-settings-backend.php:29
+msgid "Ship Depot"
+msgstr ""
+
+#: includes/class-ship-depot-settings-backend.php:61
+msgid "Thiết lập"
+msgstr ""
+
+#: includes/class-ship-depot-settings-backend.php:62
+msgid "Đơn vị vận chuyển"
+msgstr ""
+
+#: includes/class-ship-depot-settings-backend.php:63
+msgid "Thay đổi phí vận chuyển"
+msgstr ""
+
+#: includes/class-ship-depot-settings-backend.php:64
+msgid "Giới thiệu & Trợ giúp"
+msgstr ""

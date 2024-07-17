@@ -1,0 +1,59 @@
+/* .pick-station-options {
+  display: flex;
+} */
+.div-pick-station {
+    margin: var(--margin-div-children);
+}
+
+.div-pick-station p {
+    margin: 5px 0px;
+}
+
+.div-pick-station .pick-station-header {
+    font-weight: bold;
+}
+
+.pick-station-no {
+    margin-bottom: 16px;
+}
+
+.pick-station-yes {
+    display: flex;
+    flex-direction: column;
+}
+
+.pick-station-yes.pick-station-yes--disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.pick-station-yes-option-row {
+    display: flex;
+    margin-top: 10px;
+    line-height: 31px;
+    width: 500px;
+}
+
+.pick-station-yes-option-row select {
+    flex: 1;
+    margin-left: 4px;
+    margin-right: 10px;
+    max-width: 380px;
+}
+
+.pick-station-yes-title {
+    width: 100px;
+}
+
+@media (max-width: 600px) {
+    .div-pick-station .pick-station-header {
+        margin-bottom: 0.6rem;
+    }
+
+    /* rules here apply to devices from 0px to 600px (inclusive) */
+
+    .pick-station-yes-option-row {
+        width: 100%;
+        flex-direction: column;
+    }
+}

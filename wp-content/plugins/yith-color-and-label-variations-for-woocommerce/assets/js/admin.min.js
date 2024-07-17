@@ -1,0 +1,1 @@
+jQuery(function(i){i("#submit").on("click",function(){i("#addtag").length&&setTimeout(function(){i('input[type="checkbox"]').prop("checked",!1),i(".yith-plugin-fw-media .yith-plugin-fw-media__preview__action--delete").trigger("click"),i(".wp-picker-default").trigger("click")},300)})});

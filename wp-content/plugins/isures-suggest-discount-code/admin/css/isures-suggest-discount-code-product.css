@@ -1,0 +1,128 @@
+.pwp-admin--coupons {
+    max-width: 390px;
+    border: 1px solid #7e8993;
+    min-height: 30px;
+    border-radius: 4px;
+    cursor: text;
+    clear: both;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+ul.pwp-search--coupons_wrap {
+    overflow: hidden;
+    padding: 0 5px;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.pwp-inline--search {
+    margin: 0!important;
+    width: 100%;
+    float: left;
+}
+
+.pwp-search--coupons_wrap input {
+    min-width: auto!important;
+    box-shadow: none;
+    border: 1px solid transparent!important;
+    padding: 5px 10px;
+    width: 100%!important;
+    background-color: transparent!important;
+    margin-top: 8px;
+    float: unset!important;
+}
+
+input#pwp_search_coupons:focus {
+    border-color: #007cba!important;
+    box-shadow: 0 0 0 1px #007cba!important;
+}
+
+.pwp-desc--wrap {
+    font-size: 13px;
+    display: none;
+    clear: both;
+    background-color: transparent;
+    padding: 0 5px;
+    margin-top: 5px;
+}
+
+.pwp-coupon--item {
+    background-color: #e4e4e4;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: default;
+    float: left;
+    padding: 2px 6px;
+    margin: 5px 5px 0 0;
+    line-height: 1.5;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.pwp-coupon--item .remove {
+    margin-right: 3px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    transition: all 200ms ease-in-out;
+    font-size: 14px;
+}
+
+.pwp-coupon--item .remove:hover {
+    opacity: .79;
+}
+
+.pwp-admin--coupons ul#coupon_results .pwp-coupon--item {
+    display: block;
+    width: 100%;
+    float: unset!important;
+    border-radius: 0;
+    background-color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 12px;
+    margin: 0;
+}
+
+.pwp-admin--coupons ul#coupon_results .pwp-coupon--item:hover {
+    background-color: #007cba;
+    color: #fff
+}
+
+ul#coupon_results {
+    padding: 0;
+    margin: 8px 0 0;
+    display: none;
+    border-top: 2px double #ccc;
+}
+
+.not_found {
+    padding: 10px;
+    font-size: 13px;
+    margin: 0!important;
+    display: block!important;
+}
+
+ul#coupon_results .remove {
+    display: none;
+}
+
+.pwp-admin--coupons.pwp-hidden ul#coupon_results {
+    display: none!important;
+}
+
+
+/* single editor  */
+
+#pwp_coupon_product_data_tab {
+    padding: 20px;
+}
+
+.pwp-title {
+    font-size: 16px;
+}

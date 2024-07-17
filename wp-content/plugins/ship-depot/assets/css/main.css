@@ -1,0 +1,46 @@
+/* Clear fix for element contains child have float property*/
+.clear-fix::before,
+.clear-fix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 
+.clear-fix {
+  *zoom: 1;
+} */
+
+.col-padding-0 {
+  padding: 0;
+}
+
+.error_content {
+  color: red;
+}
+
+
+.disable-element {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.error-class {
+  border: 1px solid #ff0000 !important;
+}
+
+.button-a {
+  display: inline-block;
+  background-color: rgba(242, 242, 242, 1);
+  color: var(--btn-a-text-color);
+  text-decoration: none;
+  border: 1px solid rgba(121, 121, 121, 1);
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.button-a:hover {
+  background-color: rgb(222, 222, 222);
+  color: var(--btn-a-text-color);
+}

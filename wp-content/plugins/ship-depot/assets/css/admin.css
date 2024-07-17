@@ -1,0 +1,180 @@
+:root {
+  --input-background-color: #e0e3fb;
+  --sd-border-style: 1px solid #d7d7d7;
+  --btn-a-text-color: #000;
+}
+
+/* .sd-div input[type=radio]{
+  margin-right: 0;
+} */
+
+.sd-div {
+  box-sizing: border-box;
+}
+
+/* .sd-div input+label {
+  position: relative;
+  top: -2px;
+  cursor: pointer;
+} */
+
+.sd-div input[type="text"],
+.sd-div input[type="number"] {
+  background: var(--input-background-color);
+}
+
+.sd-div textarea {
+  background: var(--input-background-color);
+}
+
+.sd-div select {
+  background: var(--input-background-color) url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E) no-repeat right 5px top 55% !important;
+}
+
+.sd-setting select {
+  font-size: 16px !important;
+}
+
+.sd-setting p {
+  font-size: 16px;
+}
+
+li.selected-section {
+  background-color: white;
+}
+
+li.section-setting {
+  padding: 10px;
+}
+
+div.storage-panel {
+  border: var(--sd-border-style);
+  padding: 10px;
+  margin: 5px 5px 0px 0px;
+  background: #f2f2f2;
+}
+
+div.advance-settings-section {
+  margin: 0px 0px 0px 20px;
+}
+
+div.courier-container {
+  border-bottom: var(--sd-border-style);
+  padding: 20px 0px;
+}
+
+div.fee-modify-container {
+  border: var(--sd-border-style);
+  padding: 0px 10px;
+  margin: 10px 0px;
+}
+
+table.condition {
+  width: 100%;
+}
+
+input[type="date"] {
+  text-align: right;
+}
+
+input[type="date"]:before {
+  color: var(--input-background-color);
+  content: attr(placeholder) !important;
+  margin-right: 0.5em;
+}
+
+input[type="date"]:focus:before {
+  content: "" !important;
+}
+
+.no-spin::-webkit-inner-spin-button,
+.no-spin::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+.no-spin {
+  -moz-appearance: textfield !important;
+}
+
+.sd-edit-order .sd-row {
+  margin: 20px 0px;
+}
+
+/* List shipping service template */
+
+.courier-fee {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.courier-fee-center {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.courier-fee img {
+  margin-top: 3px;
+  width: 200px;
+}
+
+.service-fee {
+  padding-left: 20px;
+  flex-grow: 1;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.service-fee-info {
+  display: flex;
+}
+
+.service-fee-info .service-name {
+  margin: -3px 0 0 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+input[type="radio"].radio_shipping_fee {
+  margin: 2px 0 0 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.service-fee-description {
+  margin-left: 10px;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+/* End */
+
+
+@media screen and (max-width: 1199px) {
+  .courier-fee {
+    flex-direction: column;
+  }
+
+  .courier-fee img {
+    margin: 0 auto 16px auto;
+  }
+
+  .service-fee {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .service-fee-description {
+    width: 100%;
+  }
+
+  .service-fee-info .service-name {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+}

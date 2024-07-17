@@ -1,0 +1,180 @@
+# Copyright (C) 2024 YITH
+# This file is distributed under the same license as the YITH WooCommerce Color, Image & Label Variation Swatches package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Color, Image & Label Variation "
+"Swatches 2.8.0\n"
+"Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
+"POT-Creation-Date: 2024-05-23 10:11:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: YITH <info@yithemes.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/class.yith-wccl-admin.php:293 includes/functions.yith-wccl.php:252
+#: includes/functions.yith-wccl.php:268 includes/functions.yith-wccl.php:288
+msgid "Value"
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:367
+msgid "Select terms"
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:379
+msgid "Select all"
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:380
+msgid "Select none"
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:381
+msgid "Add new"
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:432
+msgid "Customization"
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:436
+msgid "Set the customization options for the plugin behavior."
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:462
+msgid "Show the available options for your products also in the shop page "
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:463
+msgid ""
+"By showing the available options also on the standard WooCommerce pages, "
+"your users will be able to quickly see the available sizes, colors, etc., "
+"and speed up the selection and purchase process."
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:466
+msgid "Use bicolor swatches for greater versatility"
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:467
+msgid ""
+"Use the \"bicolor\" option to create samples with two colors: This option "
+"is useful if you sell products that have two dominant colors and you want "
+"to consistently show them to your users."
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:470
+msgid "Enable a tooltip with text and a preview when hovering over the options"
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:471
+msgid ""
+"Show a tooltip to display the option name (e.g., the name of the color or "
+"style) and also a preview: in this way, you can show, for example, a "
+"preview of the \"blue\" sweatshirt when the user hovers over the blue color "
+"sample."
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:474
+msgid "Set an image gallery for every product variation"
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:475
+msgid ""
+"For products available in different colors, you can, for example, set up an "
+"image gallery for each color to let users have a wider overview of the "
+"products they want to purchase."
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:478
+msgid "Change the attributes’ global options in specific products"
+msgstr ""
+
+#: includes/class.yith-wccl-admin.php:479
+msgid ""
+"In the premium version of the plugin it is possible to change the style of "
+"the attributes for each product. This allows you to quickly set a different "
+"color shade in a specific product with just two clicks and without changing "
+"the color attributes globally configured."
+msgstr ""
+
+#: includes/functions.yith-wccl.php:90
+msgid "Colorpicker"
+msgstr ""
+
+#: includes/functions.yith-wccl.php:91
+msgid "Image"
+msgstr ""
+
+#: includes/functions.yith-wccl.php:92
+msgid "Label"
+msgstr ""
+
+#: init.php:53
+msgid ""
+"You can't activate the free version of YITH WooCommerce Colors and Labels "
+"Variations while you are using the premium one."
+msgstr ""
+
+#: plugin-options/customization-options.php:16
+msgid "Style options"
+msgstr ""
+
+#: plugin-options/customization-options.php:24
+msgid "Form colors"
+msgstr ""
+
+#: plugin-options/customization-options.php:30
+msgid "Border"
+msgstr ""
+
+#: plugin-options/customization-options.php:36
+msgid "Accent"
+msgstr ""
+
+#: plugin-options/customization-options.php:44
+msgid "Color swatches size (px)"
+msgstr ""
+
+#: plugin-options/customization-options.php:52
+msgid "Color swatches border radius (px)"
+msgstr ""
+
+#: plugin-options/customization-options.php:61
+msgid "Options border radius (px)"
+msgstr ""
+
+#: templates/single-product/add-to-cart/variable-wccl.php:27
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: templates/single-product/add-to-cart/variable-wccl.php:43
+msgid "Choose an option"
+msgstr ""
+
+#: templates/single-product/add-to-cart/variable-wccl.php:78
+msgid "Clear"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The <code><strong>YITH Color and Label Variations for "
+"WooCommerce</strong></code> allows you to customize the drop-down select of "
+"your variable products and buy product variations directly from shop pages. "
+"A must-have for every e-commerce. <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Get more plugins for your e-commerce shop on "
+"<strong>YITH</strong></a>."
+msgstr ""

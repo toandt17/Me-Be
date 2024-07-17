@@ -1,0 +1,276 @@
+#sd-modal-order-detail {
+  max-width: 550px;
+  text-align: center;
+}
+
+#btnModalOK {
+  width: 100px;
+  text-align: center;
+  align-self: center;
+  display: inline;
+  margin: 25px 0px 0px 0px;
+}
+
+div.shipping-info-property {
+  margin: 15px 0px;
+}
+
+div#div-ship-info {
+  margin-bottom: 10px;
+}
+
+div #shipping_info{
+  margin-bottom: -10px;
+}
+
+#img-selected-courier {
+  /* float: left; */
+  height: 5rem;
+  max-width: 10rem;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+#btnCopyTracking {
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+div#sd-status-shipping-area {
+  margin-top: 5px;
+}
+
+span#sd-status-shipping {
+  background: #e1e1e1;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#div-shipping-function {
+  margin-top: 10px;
+}
+
+#div-shipping-function #btn_print_shipping {
+  margin-right: 5px;
+}
+
+div.package-info span {
+  margin: 0px 10px;
+}
+
+.sd-button {
+  float: right;
+  cursor: pointer;
+}
+
+#package_size_container {
+  margin: 10px 0px;
+}
+
+div.package_size_row,
+div.package_size_footer {
+  margin: 5px 0px;
+}
+
+div.package_size_row img.btn_delete_package_size {
+  float: left;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+div.package_size_row img.button-virtual,
+div.package_size_footer img.button-virtual,
+#package_size_header img.button-virtual {
+  float: left;
+  visibility: collapse;
+}
+
+.package_length,
+.package_width,
+.package_height,
+.package_weight {
+  max-width: 100%;
+}
+
+#btn_add_package_size {
+  margin-left: 10px;
+}
+
+#sl_storage {
+  width: 100%;
+}
+
+div#sd-receiver-type-row {
+  margin: 0.2rem 0;
+}
+
+div#sd_current_rcv {
+  color: var(--bs-link-color);
+}
+
+div#receiver_info,
+div.receiver-info-row {
+  margin-top: 10px;
+}
+
+div#receiver_info select,
+div#receiver_info input {
+  width: 100%;
+}
+
+div#sd-advance-row {
+  color: var(--bs-link-color);
+  margin: 0;
+}
+
+div#insr_price,
+div#cod_price {
+  position: relative;
+}
+
+#tb_ins_fee {
+  margin-left: 20px;
+  padding-right: 20px;
+  min-height: min-content;
+  width: 177px;
+}
+
+div#insr_price p {
+  top: 3px;
+  position: absolute;
+  left: 180px;
+}
+
+div#shipping_fee_area {
+  min-height: 30px;
+}
+
+div#sd_note textarea {
+  width: 100%;
+  resize: none;
+  height: 80px;
+}
+
+#tb_cod_amount {
+  margin-left: 1px;
+  padding-right: 12px;
+  min-height: min-content;
+  width: 169px;
+}
+
+div#cod_price p {
+  top: 3px;
+  position: absolute;
+  left: 160px;
+}
+
+#lb_cus_pay_ship {
+  color: var(--bs-link-color);
+}
+
+#cb_cus_pay_ship {
+  float: left;
+}
+
+#btn_edit_cod {
+  margin-left: 5px;
+  vertical-align: text-bottom;
+}
+
+#div_cod_edit_amount {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+#tb_cod_edit_amount {
+  padding-right: 20px;
+  width: 177px;
+}
+
+#div_cod_edit_amount p {
+  top: 3px;
+  position: absolute;
+  left: 160px;
+}
+
+.cod-failed-description {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 2px 0 5px;
+  color: #646970;
+}
+
+#ship-from-station-notice {
+  background: url("../images/ic_check_mark.png") no-repeat 0px 2px;
+  padding-left: 20px;
+  margin: 0;
+}
+
+div#ship_depot_box .error_content {
+  margin-bottom: 0;
+}
+
+.button-disabled {
+  pointer-events: none;
+  background-color: #c3c3c3;
+  border-color: #b9b9b9;
+}
+
+div.error-message-area {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  padding: 10px 0;
+}
+
+div.service-img-container {
+  width: 250px;
+}
+
+div#div_ghtk_hamlet{
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+div#div_ghtk_hamlet p {
+  margin: 0;
+}
+
+@media screen and (max-width: 1366px) {}
+
+@media screen and (max-width: 768px) {
+
+  div#sd-advance-row,
+  div#sd-receiver-type-row {
+    margin: 0.5rem 0;
+  }
+
+  #sd-advance-row div {
+    margin: 8px 0;
+  }
+
+  #sd-receiver-type-row div {
+    margin: 8px 0;
+  }
+
+  #div-storages {
+    margin-top: 10px;
+  }
+
+  div.service-img-container {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #package_content .row {
+    --bs-gutter-x: 0.2rem;
+  }
+
+  div.service-img-container {
+    width: auto;
+  }
+}
