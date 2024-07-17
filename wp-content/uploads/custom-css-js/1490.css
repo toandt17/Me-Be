@@ -1,0 +1,720 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+/* --- Cart step 1 --- */
+/* --- Left --- */
+.woocommerce-cart-form{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.woocommerce-cart-form th {
+		letter-spacing: 0 !important;
+    text-transform: none !important;
+}
+
+.woocommerce-cart-form input[type=number]{
+		border: none !important;
+	box-shadow: none !important;
+}
+
+ .quantity .button.minus, .quantity .button.plus{
+	 border-radius: 5px !important;
+border: 1px solid #999 !important;
+}
+.woocommerce-cart-form th.product-name{
+	 font-family: "Coiny", system-ui;
+	color: #111;
+	font-size:16px
+}
+
+.woocommerce-cart-form td.product-name{
+	width: 30%;
+}
+
+.woocommerce-cart-form td.product-name a{
+	font-size:12px;
+}
+
+.woocommerce-cart-form td.product-thumbnail a img{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 3px;
+}
+.woocommerce-cart-form td.actions {
+	display:none;
+}
+/* --- Right --- */
+@media screen and (min-width: 850px) {
+    .row-large>.col, .row-large>.flickity-viewport>.flickity-slider>.col {
+        padding: 0 10px 0px !important;
+    }
+	
+	.row-divided>.col+.col:not(.large-12) {
+        border-left: none !important;
+    }
+}
+
+.cart-collaterals .cart-sidebar .cart_totals,.cart-collaterals .cart-sidebar .checkout_coupon{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 15px;
+	margin-bottom: 20px
+}
+
+.cart-collaterals .cart-sidebar .cart_totals th.product-name{
+	font-family: "Coiny", system-ui;
+	text-transform: none;
+	color:#111;
+	font-size:16px;
+}
+.cart-collaterals .cart-sidebar .wc-proceed-to-checkout a{
+	border-radius: 8px;	
+	font-weight: 700 !important;
+}
+
+/* Coupon */
+.cart-collaterals .cart-sidebar  h3.widget-title {
+	font-family: "Coiny", system-ui !important;
+	font-size:16px;
+	color: #111;
+}
+
+.cart-collaterals .cart-sidebar  h3.widget-title .icon-tag{
+	display:none;
+}
+
+.cart-collaterals .cart-sidebar .checkout_coupon input {
+	border-radius: 8px;
+}
+
+.cart-collaterals .cart-sidebar .checkout_coupon input[type=submit] {
+	background-color: #ff469e;
+	color: white;
+	font-weight: 800 !important;
+	text-shadow: none !important;
+}
+/* --- End cart step 1 --- */
+
+/* --- Cart step 2 --- */
+/* --- Left --- */
+.woocommerce-billing-fields {
+    border-top: none !important;
+    padding-top: 0px !important;
+}
+
+.woocommerce-billing-fields h3{
+	text-transform: none !important;
+}
+
+#customer_details{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 16px;
+}
+
+#customer_details input[type=text],#customer_details input[type=tel],#customer_details input[type=email],#customer_details input[type=email], .select2-selection {
+	border-radius: 8px !important;
+	box-shadow: none !important;
+}
+
+.woocommerce-additional-fields #order_comments{
+	border-radius: 8px !important;
+}
+
+/* --- Right --- */
+.checkout.woocommerce-checkout .has-border .checkout-sidebar h3{
+	display:none !important;
+}
+
+.checkout.woocommerce-checkout .has-border{
+	border: none !important;
+	padding: 0px;
+}
+
+#order_review .shop_table.woocommerce-checkout-review-order-table{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 16px;
+}
+
+#order_review .shop_table.woocommerce-checkout-review-order-table th{
+	text-transform: none !important;
+	border-bottom: none !important
+}
+
+.shop_table .order-total td{
+	border-width: 0px !important;
+}
+
+#order_review #payment{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 16px;
+}
+
+#order_review #payment #place_order{
+	border-radius: 8px;
+}
+
+
+/* --- Breadcrumb --- */
+
+.featured-title{
+	background-color: #f5f7fd !important;
+}
+
+.featured-title .title-breadcrumbs .woocommerce-breadcrumb a,.featured-title .title-breadcrumbs .woocommerce-breadcrumb{
+	color: #444 !important;
+}
+
+.title-wrapper .entry-title{
+	display:none;
+}
+
+/* --- Sidebar Account- */
+
+.bs5-custom  a {
+    cursor: pointer;
+}
+
+.bs5-custom  a {
+    color: #1592e6;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.bs5-custom   .align-center {
+    align-items: center;
+}
+
+.bs5-custom  .box-block {
+    padding: 24px 20px 24px 20px;
+    isolation: isolate;
+    background: #fff;
+    border-radius: 12px;
+}
+.bs5-custom  .color-20 {
+    color: #202020;
+}
+
+.bs5-custom  .color-40 {
+    color: #404040;
+}
+
+.bs5-custom  .cc-pink-primary {
+    color: #ff379b !important;
+}
+
+.bs5-custom  .color-text-main {
+    color: #67686c;
+}
+
+.bs5-custom   .d-block {
+    display: block !important;
+}
+
+.bs5-custom   .d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.bs5-custom  .font-concung {
+    font-family: "Coiny", system-ui !important;
+}
+
+.bs5-custom .font-13 {
+    font-size: 13px;
+}
+
+.bs5-custom   .font-14 {
+    font-size: 14px !important;
+}
+
+.bs5-custom   .line-height-14 {
+    line-height: 14px;
+}
+.bs5-custom  .ml-auto,.bs5-custom  .mx-auto {
+    margin-left: auto !important;
+	  margin-right: auto !important;
+}
+
+.bs5-custom  .ml-15,.bs5-custom .mx-15 {
+    margin-left: 15px;
+}
+
+.bs5-custom  .mb-10, .bs5-custom   .my-10 {
+    margin-bottom: 10px;
+}
+
+.bs5-custom .mt-15, .my-15 {
+    margin-top: 15px !important;
+}
+
+.bs5-custom  .text-left {
+    text-align: left !important;
+}
+
+.bs5-custom  .text-center {
+    text-align: center !important;
+}
+
+.bs5-custom  .item-menu-customer:first-child {
+    margin-top: 0;
+}
+
+.bs5-custom  .item-menu-customer {
+    display: flex;
+    font-size: 14px;
+    color: #373737;
+    width: 100%;
+    height: 48px;
+    position: relative;
+    align-items: center;
+}
+
+.bs5-custom  .item-menu-customer img {
+    max-height: 24px;
+}
+
+.bs5-custom .item-menu-customer a {
+    margin-left: 15px;
+    line-height: 48px;
+    width: 100%;
+}
+
+.bs5-custom  .item-menu-customer-last {
+    margin-bottom: 0;
+}
+
+.bs5-custom .justify-content-between {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+}
+
+.bs5-custom .h-auto {
+    height: auto !important;
+}
+
+.bs5-custom  .hide {
+    display: none !important;
+}
+
+.bs5-custom  img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.bs5-custom  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.bs5-custom  .pointer {
+    cursor: pointer;
+}
+
+.bs5-custom .w-25 {
+	width: 25%!important
+}
+
+.bs5-custom  .w-50 {
+	width: 50%!important
+}
+
+.bs5-custom .w-75 {
+	width: 75%!important
+}
+
+.bs5-custom .w-100 {
+	width: 100%!important
+}
+
+.bs5-custom .w-auto {
+	width: auto!important
+}
+
+.bs5-custom .h-25 {
+	height: 25%!important
+}
+
+.bs5-custom .h-50 {
+	height: 50%!important
+}
+
+.bs5-custom .h-75 {
+	height: 75%!important
+}
+
+.bs5-custom .h-100 {
+	height: 100%!important
+}
+
+.bs5-custom .h-auto {
+	height: auto!important
+}
+
+.bs5-custom .mw-100 {
+	max-width: 100%!important
+}
+
+.bs5-custom .mh-100 {
+	max-height: 100%!important
+}
+
+.bs5-custom .m-0 {
+	margin: 0!important
+}
+
+.bs5-custom .mt-0,.my-0 {
+	margin-top: 0!important
+}
+
+.bs5-custom .mr-0,.mx-0 {
+	margin-right: 0!important
+}
+
+.bs5-custom .mb-0,.my-0 {
+	margin-bottom: 0!important
+}
+
+.bs5-custom .ml-0,.mx-0 {
+	margin-left: 0!important
+}
+
+.bs5-custom .m-1 {
+	margin: .25rem!important
+}
+
+.bs5-custom .mt-1,.my-1 {
+	margin-top: .25rem!important
+}
+
+.bs5-custom .mr-1,.mx-1 {
+	margin-right: .25rem!important
+}
+
+.bs5-custom .mb-1,.my-1 {
+	margin-bottom: .25rem!important
+}
+
+.bs5-custom .ml-1,.mx-1 {
+	margin-left: .25rem!important
+}
+
+.bs5-custom .m-2 {
+	margin: .5rem!important
+}
+
+.bs5-custom .mt-2,.bs5-custom .my-2 {
+	margin-top: .5rem!important
+}
+
+.bs5-custom .mr-2,.bs5-custom .mx-2 {
+	margin-right: .5rem!important
+}
+
+.bs5-custom .mb-2,.bs5-custom .my-2 {
+	margin-bottom: .5rem!important
+}
+
+.bs5-custom .ml-2, .bs5-custom .mx-2 {
+	margin-left: .5rem!important
+}
+
+.bs5-custom .m-3 {
+	margin: 1rem!important
+}
+
+.bs5-custom .mt-3,.bs5-custom .my-3 {
+	margin-top: 1rem!important
+}
+
+.bs5-custom .mr-3,.bs5-custom .mx-3 {
+	margin-right: 1rem!important
+}
+
+.bs5-custom .mb-3,.bs5-custom .my-3 {
+	margin-bottom: 1rem!important
+}
+
+.bs5-custom .ml-3,.bs5-custom .mx-3 {
+	margin-left: 1rem!important
+}
+
+.bs5-custom .m-4 {
+	margin: 1.5rem!important
+}
+
+.bs5-custom .mt-4,.bs5-custom .my-4 {
+	margin-top: 1.5rem!important
+}
+
+.bs5-custom .mr-4,.bs5-custom .mx-4 {
+	margin-right: 1.5rem!important
+}
+
+.bs5-custom .mb-4,.bs5-custom .my-4 {
+	margin-bottom: 1.5rem!important
+}
+
+.bs5-custom .ml-4,.bs5-custom .mx-4 {
+	margin-left: 1.5rem!important
+}
+
+.bs5-custom .m-5 {
+	margin: 3rem!important
+}
+
+.bs5-custom .mt-5,.bs5-custom .my-5 {
+	margin-top: 3rem!important
+}
+
+.bs5-custom .mr-5,.bs5-custom .mx-5 {
+	margin-right: 3rem!important
+}
+
+.bs5-custom .bs5-custom .mb-5,.bs5-custom .my-5 {
+	margin-bottom: 3rem!important
+}
+
+.bs5-custom .ml-5,.bs5-custom .mx-5 {
+	margin-left: 3rem!important
+}
+
+.bs5-custom .p-0 {
+	padding: 0!important
+}
+
+.bs5-custom .pt-0,.bs5-custom .py-0 {
+	padding-top: 0!important
+}
+
+.bs5-custom .pr-0,.bs5-custom .px-0 {
+	padding-right: 0!important
+}
+
+.bs5-custom .pb-0,.bs5-custom .py-0 {
+	padding-bottom: 0!important
+}
+
+.bs5-custom .pl-0,.bs5-custom .px-0 {
+	padding-left: 0!important
+}
+
+.bs5-custom .p-1 {
+	padding: .25rem!important
+}
+
+.bs5-custom .pt-1,.bs5-custom .py-1 {
+	padding-top: .25rem!important
+}
+
+.bs5-custom .pr-1,.bs5-custom .px-1 {
+	padding-right: .25rem!important
+}
+
+.bs5-custom .pb-1,.bs5-custom .py-1 {
+	padding-bottom: .25rem!important
+}
+
+.bs5-custom .pl-1,.bs5-custom .px-1 {
+	padding-left: .25rem!important
+}
+
+.bs5-custom .p-2 {
+	padding: .5rem!important
+}
+
+.bs5-custom .pt-2,.bs5-custom .py-2 {
+	padding-top: .5rem!important
+}
+
+.bs5-custom .pr-2,.bs5-custom .px-2 {
+	padding-right: .5rem!important
+}
+
+.bs5-custom .pb-2,.bs5-custom .py-2 {
+	padding-bottom: .5rem!important
+}
+
+.bs5-custom .pl-2,.bs5-custom .px-2 {
+	padding-left: .5rem!important
+}
+
+.bs5-custom .p-3 {
+	padding: 1rem!important
+}
+
+.bs5-custom .pt-3,.bs5-custom .py-3 {
+	padding-top: 1rem!important
+}
+
+.bs5-custom .pr-3,.bs5-custom .px-3 {
+	padding-right: 1rem!important
+}
+
+.bs5-custom .pb-3,.bs5-custom .py-3 {
+	padding-bottom: 1rem!important
+}
+
+.bs5-custom .pl-3,.bs5-custom .px-3 {
+	padding-left: 1rem!important
+}
+
+.bs5-custom .p-4 {
+	padding: 1.5rem!important
+}
+
+.bs5-custom .pt-4,.bs5-custom .py-4 {
+	padding-top: 1.5rem!important
+}
+
+.bs5-custom .pr-4,.bs5-custom .px-4 {
+	padding-right: 1.5rem!important
+}
+
+.bs5-custom .pb-4,.bs5-custom .py-4 {
+	padding-bottom: 1.5rem!important
+}
+
+.bs5-custom .pl-4,.bs5-custom .px-4 {
+	padding-left: 1.5rem!important
+}
+
+.bs5-custom .p-5 {
+	padding: 3rem!important
+}
+
+.bs5-custom .pt-5,.bs5-custom .py-5 {
+	padding-top: 3rem!important
+}
+
+.bs5-custom .pr-5,.bs5-custom .px-5 {
+	padding-right: 3rem!important
+}
+
+.bs5-custom .pb-5,.bs5-custom .py-5 {
+	padding-bottom: 3rem!important
+}
+
+.bs5-custom .pl-5,.bs5-custom .px-5 {
+	padding-left: 3rem!important
+}
+
+.bs5-custom .m-auto {
+	margin: auto!important
+}
+
+.bs5-custom .mt-auto,.bs5-custom .my-auto {
+	margin-top: auto!important
+}
+
+.bs5-custom .mr-auto,.bs5-custom .mx-auto {
+	margin-right: auto!important
+}
+
+.bs5-custom .mb-auto,.bs5-custom .my-auto {
+	margin-bottom: auto!important
+}
+
+.bs5-custom .ml-auto,.bs5-custom .mx-auto {
+	margin-left: auto!important
+}
+
+.bs5-custom  ::after,.bs5-custom  ::before {
+    box-sizing: border-box;
+}
+
+
+.bs5-custom .pl-15,.bs5-custom .px-15 {
+	padding-left: 15px
+}
+
+.bs5-custom .pr-15,.bs5-custom .px-15 {
+	padding-right: 15px
+}
+
+.bs5-custom .form-group {
+    margin-bottom: 1rem;
+}
+
+.bs5-custom .form-control:disabled, .bs5-custom .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.bs5-custom .height-30 {
+    height: 30px;
+}
+
+.bs5-custom .form-control {
+    height: 40px;
+    line-height: 24px;
+}
+
+.bs5-custom .form-control {
+    display: block;
+    width: 100%;
+    height: calc(2rem + 2px);
+    padding: .375rem .75rem;
+    font-size: .875rem;
+    line-height: 1.4285714286;
+    color: #333;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.bs5-custom button,.bs5-custom input {
+    overflow: visible;
+}
+
+.bs5-custom button,.bs5-custom input,.bs5-custom optgroup,.bs5-custom select,.bs5-custom textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.bs5-custom .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.bs5-custom .line-height-30 {
+    line-height: 30px;
+}
+
+.bs5-custom .btn-rounded,.bs5-custom .form-control-rounded {
+    border-radius: 19px;
+}
+
+.bs5-custom .border-blue {
+    border-color: #3567d7 !important;
+}
+
+.bs5-custom .border {
+    border: 1px solid #dee2e6 !important;
+}
+
+.bs5-custom .btn-blue {
+    color: #fff;
+    background-color: #3567d7;
+    border-color: #3567d7;
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->
